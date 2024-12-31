@@ -1,2 +1,121 @@
-[31Dec2024 00:40:38.028] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2025ms or 40 ticks behind
-[31Dec2024 02:43:02.114] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: ServerSeekerV2 (/154.213.192.15:52098) lost connection: Disconnected
+[31Dec2024 13:39:07.207] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.neoForgeVersion, 21.1.92, --fml.fmlVersion, 4.0.34, --fml.mcVersion, 1.21.1, --fml.neoFormVersion, 20240808.144430]
+[31Dec2024 13:39:07.211] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Oracle Corporation OpenJDK 64-Bit Server VM 21+35-2513
+[31Dec2024 13:39:07.214] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 11.0.4+main.d2e20e43 starting: java version 21 by Oracle Corporation; OS Linux arch amd64 version 5.4.0-198-generic
+[31Dec2024 13:39:07.415] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[31Dec2024 13:39:07.504] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/app/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar%2375!/ Service=ModLauncher Env=SERVER
+[31Dec2024 13:39:07.717] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "server-1.21.1-20240808.144430-srg.jar" [locator: production server provider +net.neoforged:neoforge:21.1.92:server]
+[31Dec2024 13:39:07.751] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "neoforge-21.1.92-universal.jar" [locator: PathBasedLocator[name=neoforge, paths=[libraries/net/neoforged/neoforge/21.1.92/neoforge-21.1.92-universal.jar]], reader: mod manifest]
+[31Dec2024 13:39:07.771] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "appliedenergistics2-19.1.2-beta.jar" [locator: {mods folder locator at /app/mods}, reader: mod manifest]
+[31Dec2024 13:39:07.780] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "BiomesOPlenty-neoforge-1.21.1-21.1.0.7.jar" [locator: {mods folder locator at /app/mods}, reader: mod manifest]
+[31Dec2024 13:39:07.795] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "ferritecore-7.0.2-neoforge.jar" [locator: {mods folder locator at /app/mods}, reader: mod manifest]
+[31Dec2024 13:39:07.801] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "GlitchCore-neoforge-1.21.1-2.1.0.0.jar" [locator: {mods folder locator at /app/mods}, reader: mod manifest]
+[31Dec2024 13:39:07.812] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "ImmersiveEngineering-1.21.1-12.0.0-182.jar" [locator: {mods folder locator at /app/mods}, reader: mod manifest]
+[31Dec2024 13:39:07.830] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "integrateddynamics-1.21.1-neoforge-1.24.3-1024.jar" [locator: {mods folder locator at /app/mods}, reader: mod manifest]
+[31Dec2024 13:39:07.855] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "integratedtunnels-1.21.1-neoforge-1.8.30-343.jar" [locator: {mods folder locator at /app/mods}, reader: mod manifest]
+[31Dec2024 13:39:07.864] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "ironchest-1.21-neoforge-16.0.7.jar" [locator: {mods folder locator at /app/mods}, reader: mod manifest]
+[31Dec2024 13:39:07.873] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "jei-1.21.1-neoforge-19.21.0.247.jar" [locator: {mods folder locator at /app/mods}, reader: mod manifest]
+[31Dec2024 13:39:07.880] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "mcw-bridges-3.0.0-mc1.21.1neoforge.jar" [locator: {mods folder locator at /app/mods}, reader: mod manifest]
+[31Dec2024 13:39:07.883] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "TerraBlender-neoforge-1.21.1-4.1.0.5.jar" [locator: {mods folder locator at /app/mods}, reader: mod manifest]
+[31Dec2024 13:39:07.921] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "twilightforest-1.21.1-4.6.2941-universal.jar" [locator: {mods folder locator at /app/mods}, reader: mod manifest]
+[31Dec2024 13:39:07.925] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "waystones-neoforge-1.21.1-21.1.5.jar" [locator: {mods folder locator at /app/mods}, reader: mod manifest]
+[31Dec2024 13:39:08.083] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 5 dependencies adding them to mods collection
+[31Dec2024 13:39:08.083] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "mixinextras-neoforge-0.4.1.jar" [parent: neoforge-21.1.92-universal.jar, locator: jarinjar, reader: mod manifest]
+[31Dec2024 13:39:08.083] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "DualCodecs-0.1.1.jar" [parent: ImmersiveEngineering-1.21.1-12.0.0-182.jar, locator: jarinjar, reader: mod manifest]
+[31Dec2024 13:39:08.083] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "BlockModelSplitter-2.0.1.jar" [parent: ImmersiveEngineering-1.21.1-12.0.0-182.jar, locator: jarinjar, reader: mod manifest]
+[31Dec2024 13:39:08.083] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "s.tf-asm-4.6.2941.jar" [parent: twilightforest-1.21.1-4.6.2941-universal.jar, locator: jarinjar, reader: mod manifest]
+[31Dec2024 13:39:08.084] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "neoforge-coremods-21.1.92.jar" [parent: neoforge-21.1.92-universal.jar, locator: jarinjar, reader: mod manifest]
+[31Dec2024 13:39:08.088] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
+     Mod List:
+		Name Version (Mod Id)
+
+		Applied Energistics 2 19.1.2-beta (ae2)
+		Biomes O' Plenty 21.1.0.7 (biomesoplenty)
+		Ferrite Core 7.0.2 (ferritecore)
+		GlitchCore 2.1.0.0 (glitchcore)
+		Immersive Engineering 12.0.0-182 (immersiveengineering)
+		IntegratedDynamics 1.24.3 (integrateddynamics)
+		IntegratedTunnels 1.8.30 (integratedtunnels)
+		Iron Chests 1.21-neoforge-16.0.7 (ironchest)
+		Just Enough Items 19.21.0.247 (jei)
+		Macaw's Bridges 3.0.0 (mcwbridges)
+		Minecraft 1.21.1 (minecraft)
+		NeoForge 21.1.92 (neoforge)
+		TerraBlender 4.1.0.5 (terrablender)
+		The Twilight Forest 4.6.2941 (twilightforest)
+		Waystones 21.1.5 (waystones)
+[31Dec2024 13:39:08.180] [main/ERROR] [net.neoforged.fml.loading.ModSorter/LOADING]: Missing or unsupported mandatory dependencies:
+	Mod ID: 'commoncapabilities', Requested by: 'integrateddynamics', Expected range: '[2.9.3,)', Actual version: '[MISSING]'
+	Mod ID: 'cyclopscore', Requested by: 'integratedtunnels', Expected range: '[1.25.5,)', Actual version: '[MISSING]'
+	Mod ID: 'commoncapabilities', Requested by: 'integratedtunnels', Expected range: '[2.9.3,)', Actual version: '[MISSING]'
+	Mod ID: 'cyclopscore', Requested by: 'integrateddynamics', Expected range: '[1.25.5,)', Actual version: '[MISSING]'
+	Mod ID: 'cyclopscore', Requested by: 'integrateddynamicscompat', Expected range: '[1.25.1,)', Actual version: '[MISSING]'
+	Mod ID: 'balm', Requested by: 'waystones', Expected range: '[21.0.0,)', Actual version: '[MISSING]'
+	Mod ID: 'cyclopscore', Requested by: 'integratedtunnelscompat', Expected range: '[1.19.10,)', Actual version: '[MISSING]'
+[31Dec2024 13:39:09.002] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[31Dec2024 13:39:11.587] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[31Dec2024 13:39:21.230] [main/FATAL] [net.neoforged.fml.ModLoader/CORE]: Error during pre-loading phase: Mod integrateddynamics requires commoncapabilities 2.9.3 or above
+Currently, commoncapabilities is not installed
+
+[31Dec2024 13:39:21.231] [main/FATAL] [net.neoforged.fml.ModLoader/CORE]: Error during pre-loading phase: Mod integratedtunnels requires cyclopscore 1.25.5 or above
+Currently, cyclopscore is not installed
+
+[31Dec2024 13:39:21.232] [main/FATAL] [net.neoforged.fml.ModLoader/CORE]: Error during pre-loading phase: Mod integratedtunnels requires commoncapabilities 2.9.3 or above
+Currently, commoncapabilities is not installed
+
+[31Dec2024 13:39:21.232] [main/FATAL] [net.neoforged.fml.ModLoader/CORE]: Error during pre-loading phase: Mod integrateddynamics requires cyclopscore 1.25.5 or above
+Currently, cyclopscore is not installed
+
+[31Dec2024 13:39:21.238] [main/FATAL] [net.neoforged.fml.ModLoader/CORE]: Error during pre-loading phase: Mod integrateddynamicscompat requires cyclopscore 1.25.1 or above
+Currently, cyclopscore is not installed
+
+[31Dec2024 13:39:21.239] [main/FATAL] [net.neoforged.fml.ModLoader/CORE]: Error during pre-loading phase: Mod waystones requires balm 21.0.0 or above
+Currently, balm is not installed
+
+[31Dec2024 13:39:21.239] [main/FATAL] [net.neoforged.fml.ModLoader/CORE]: Error during pre-loading phase: Mod integratedtunnelscompat requires cyclopscore 1.19.10 or above
+Currently, cyclopscore is not installed
+
+[31Dec2024 13:39:21.307] [main/ERROR] [net.minecraft.CrashReport/]: Negative index in crash report handler (0/18)
+[31Dec2024 13:39:21.331] [main/FATAL] [net.neoforged.neoforge.server.loading.ServerModLoader/]: Crash report saved to ./crash-reports/crash-2024-12-31_13.39.21-fml.txt
+[31Dec2024 13:39:21.332] [main/ERROR] [net.minecraft.server.Main/FATAL]: Failed to start the minecraft server
+net.neoforged.fml.ModLoadingException: Loading errors encountered:
+	- Mod integrateddynamics requires commoncapabilities 2.9.3 or above
+	  Currently, commoncapabilities is not installed
+	  
+	- Mod integratedtunnels requires cyclopscore 1.25.5 or above
+	  Currently, cyclopscore is not installed
+	  
+	- Mod integratedtunnels requires commoncapabilities 2.9.3 or above
+	  Currently, commoncapabilities is not installed
+	  
+	- Mod integrateddynamics requires cyclopscore 1.25.5 or above
+	  Currently, cyclopscore is not installed
+	  
+	- Mod integrateddynamicscompat requires cyclopscore 1.25.1 or above
+	  Currently, cyclopscore is not installed
+	  
+	- Mod waystones requires balm 21.0.0 or above
+	  Currently, balm is not installed
+	  
+	- Mod integratedtunnelscompat requires cyclopscore 1.19.10 or above
+	  Currently, cyclopscore is not installed
+	  
+
+	at MC-BOOTSTRAP/fml_loader@4.0.34/net.neoforged.fml.ModLoader.gatherAndInitializeMods(ModLoader.java:110) ~[loader-4.0.34.jar%2360!/:4.0]
+	at TRANSFORMER/neoforge@21.1.92/net.neoforged.neoforge.internal.CommonModLoader.begin(CommonModLoader.java:49) ~[neoforge-21.1.92-universal.jar%23133!/:?]
+	at TRANSFORMER/neoforge@21.1.92/net.neoforged.neoforge.server.loading.ServerModLoader.load(ServerModLoader.java:34) ~[neoforge-21.1.92-universal.jar%23133!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.Main.main(Main.java:124) ~[server-1.21.1-20240808.144430-srg.jar%23132!/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at MC-BOOTSTRAP/fml_loader@4.0.34/net.neoforged.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:136) ~[loader-4.0.34.jar%2360!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.34/net.neoforged.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:128) ~[loader-4.0.34.jar%2360!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.34/net.neoforged.fml.loading.targets.CommonServerLaunchHandler.runService(CommonServerLaunchHandler.java:32) ~[loader-4.0.34.jar%2360!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.34/net.neoforged.fml.loading.targets.CommonLaunchHandler.lambda$launchService$4(CommonLaunchHandler.java:118) ~[loader-4.0.34.jar%2360!/:4.0]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-11.0.4.jar%2362!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-11.0.4.jar%2362!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-11.0.4.jar%2362!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.Launcher.run(Launcher.java:103) [modlauncher-11.0.4.jar%2362!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.Launcher.main(Launcher.java:74) [modlauncher-11.0.4.jar%2362!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-11.0.4.jar%2362!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-11.0.4.jar%2362!/:?]
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.run(BootstrapLauncher.java:210) [bootstraplauncher-2.0.2.jar:?]
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:69) [bootstraplauncher-2.0.2.jar:?]
