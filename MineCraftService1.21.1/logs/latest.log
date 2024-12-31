@@ -1,1 +1,2 @@
 [31Dec2024 00:40:38.028] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2025ms or 40 ticks behind
+[31Dec2024 02:43:02.114] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: ServerSeekerV2 (/154.213.192.15:52098) lost connection: Disconnected
