@@ -1,0 +1,12 @@
+version: '3.8'  # 使用的 Docker Compose 文件版本
+
+services:
+        minecraft:
+                image: openjdk:21-jdk  # 使用的 Docker 镜像
+                volumes:
+                        - ./MineCraftService1.21.1:/app          # 将当前目录下的 app 目录挂载到容器的 /app
+                ports:
+                        - "25565:25565"       # 映射端口
+                working_dir: /app      # 设置工作目录
+                command: ["bash", "run.sh"]  # 启动时执行的命令
+                tty: true               # 使容器保持运行状态
