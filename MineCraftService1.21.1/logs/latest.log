@@ -1,53 +1,53 @@
-[04Jan2025 03:26:02.443] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.neoForgeVersion, 21.1.92, --fml.fmlVersion, 4.0.34, --fml.mcVersion, 1.21.1, --fml.neoFormVersion, 20240808.144430]
-[04Jan2025 03:26:02.446] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Oracle Corporation OpenJDK 64-Bit Server VM 21+35-2513
-[04Jan2025 03:26:02.448] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 11.0.4+main.d2e20e43 starting: java version 21 by Oracle Corporation; OS Linux arch amd64 version 5.4.0-198-generic
-[04Jan2025 03:26:02.689] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[04Jan2025 03:26:02.754] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/app/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar%2375!/ Service=ModLauncher Env=SERVER
-[04Jan2025 03:26:02.990] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "server-1.21.1-20240808.144430-srg.jar" [locator: production server provider +net.neoforged:neoforge:21.1.92:server]
-[04Jan2025 03:26:03.015] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "neoforge-21.1.92-universal.jar" [locator: PathBasedLocator[name=neoforge, paths=[libraries/net/neoforged/neoforge/21.1.92/neoforge-21.1.92-universal.jar]], reader: mod manifest]
-[04Jan2025 03:26:03.030] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "appliedenergistics2-19.1.2-beta.jar" [locator: {mods folder locator at /app/mods}, reader: mod manifest]
-[04Jan2025 03:26:03.035] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "balm-neoforge-1.21.1-21.0.22.jar" [locator: {mods folder locator at /app/mods}, reader: mod manifest]
-[04Jan2025 03:26:03.041] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "BiomesOPlenty-neoforge-1.21.1-21.1.0.7.jar" [locator: {mods folder locator at /app/mods}, reader: mod manifest]
-[04Jan2025 03:26:03.047] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "chunkloaders-1.2.8-neoforge-mc1.21.jar" [locator: {mods folder locator at /app/mods}, reader: mod manifest]
-[04Jan2025 03:26:03.051] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "commoncapabilities-1.21.1-neoforge-2.9.7-192.jar" [locator: {mods folder locator at /app/mods}, reader: mod manifest]
-[04Jan2025 03:26:03.055] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "cyclopscore-1.21.1-neoforge-1.25.5-683.jar" [locator: {mods folder locator at /app/mods}, reader: mod manifest]
-[04Jan2025 03:26:03.060] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "ExtendedAE-1.21-2.1.7-neoforge.jar" [locator: {mods folder locator at /app/mods}, reader: mod manifest]
-[04Jan2025 03:26:03.070] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "ferritecore-7.0.2-neoforge.jar" [locator: {mods folder locator at /app/mods}, reader: mod manifest]
-[04Jan2025 03:26:03.074] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "ftbjeiextras-21.1.4.jar" [locator: {mods folder locator at /app/mods}, reader: mod manifest]
-[04Jan2025 03:26:03.078] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "GlitchCore-neoforge-1.21.1-2.1.0.0.jar" [locator: {mods folder locator at /app/mods}, reader: mod manifest]
-[04Jan2025 03:26:03.081] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Glodium-1.21-2.2-neoforge.jar" [locator: {mods folder locator at /app/mods}, reader: mod manifest]
-[04Jan2025 03:26:03.092] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "gtceu-1.21.1-1.4.4.jar" [locator: {mods folder locator at /app/mods}, reader: mod manifest]
-[04Jan2025 03:26:03.131] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "ImmersiveEngineering-1.21.1-12.0.0-182.jar" [locator: {mods folder locator at /app/mods}, reader: mod manifest]
-[04Jan2025 03:26:03.140] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "integrateddynamics-1.21.1-neoforge-1.24.3-1024.jar" [locator: {mods folder locator at /app/mods}, reader: mod manifest]
-[04Jan2025 03:26:03.154] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "integratedtunnels-1.21.1-neoforge-1.8.30-343.jar" [locator: {mods folder locator at /app/mods}, reader: mod manifest]
-[04Jan2025 03:26:03.157] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "ironchest-1.21-neoforge-16.0.7.jar" [locator: {mods folder locator at /app/mods}, reader: mod manifest]
-[04Jan2025 03:26:03.162] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "jei-1.21.1-neoforge-19.21.0.247.jar" [locator: {mods folder locator at /app/mods}, reader: mod manifest]
-[04Jan2025 03:26:03.166] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "mcw-bridges-3.0.0-mc1.21.1neoforge.jar" [locator: {mods folder locator at /app/mods}, reader: mod manifest]
-[04Jan2025 03:26:03.169] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "modernfix-neoforge-5.20.0+mc1.21.1.jar" [locator: {mods folder locator at /app/mods}, reader: mod manifest]
-[04Jan2025 03:26:03.172] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "supermartijn642configlib-1.1.8-neoforge-mc1.21.jar" [locator: {mods folder locator at /app/mods}, reader: mod manifest]
-[04Jan2025 03:26:03.183] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "supermartijn642corelib-1.1.18-neoforge-mc1.21.jar" [locator: {mods folder locator at /app/mods}, reader: mod manifest]
-[04Jan2025 03:26:03.186] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "TerraBlender-neoforge-1.21.1-4.1.0.5.jar" [locator: {mods folder locator at /app/mods}, reader: mod manifest]
-[04Jan2025 03:26:03.197] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "twilightforest-1.21.1-4.6.2941-universal.jar" [locator: {mods folder locator at /app/mods}, reader: mod manifest]
-[04Jan2025 03:26:03.200] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "waystones-neoforge-1.21.1-21.1.5.jar" [locator: {mods folder locator at /app/mods}, reader: mod manifest]
-[04Jan2025 03:26:03.472] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 10 dependencies adding them to mods collection
-[04Jan2025 03:26:03.474] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "mixinextras-neoforge-0.4.1.jar" [parent: neoforge-21.1.92-universal.jar, locator: jarinjar, reader: mod manifest]
-[04Jan2025 03:26:03.475] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "Registrate-MC1.21-1.3.0+53.jar" [parent: gtceu-1.21.1-1.4.4.jar, locator: jarinjar, reader: mod manifest]
-[04Jan2025 03:26:03.475] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "DualCodecs-0.1.1.jar" [parent: ImmersiveEngineering-1.21.1-12.0.0-182.jar, locator: jarinjar, reader: mod manifest]
-[04Jan2025 03:26:03.475] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "kuma-api-neoforge-21.0.5-SNAPSHOT.jar" [parent: balm-neoforge-1.21.1-21.0.22.jar, locator: jarinjar, reader: mod manifest]
-[04Jan2025 03:26:03.475] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "configuration-444699-5616143.jar" [parent: gtceu-1.21.1-1.4.4.jar, locator: jarinjar, reader: mod manifest]
-[04Jan2025 03:26:03.476] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "BlockModelSplitter-2.0.1.jar" [parent: ImmersiveEngineering-1.21.1-12.0.0-182.jar, locator: jarinjar, reader: mod manifest]
-[04Jan2025 03:26:03.476] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "s.tf-asm-4.6.2941.jar" [parent: twilightforest-1.21.1-4.6.2941-universal.jar, locator: jarinjar, reader: mod manifest]
-[04Jan2025 03:26:03.476] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "ldlib-neoforge-1.21.1-1.0.27.b.jar" [parent: gtceu-1.21.1-1.4.4.jar, locator: jarinjar, reader: mod manifest]
-[04Jan2025 03:26:03.476] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "ae2wtlib_api-19.1.0-alpha.1.jar" [parent: ExtendedAE-1.21-2.1.7-neoforge.jar, locator: jarinjar, reader: mod manifest]
-[04Jan2025 03:26:03.476] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "neoforge-coremods-21.1.92.jar" [parent: neoforge-21.1.92-universal.jar, locator: jarinjar, reader: mod manifest]
-[04Jan2025 03:26:03.479] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
+[05Jan2025 19:00:35.925] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.neoForgeVersion, 21.1.92, --fml.fmlVersion, 4.0.34, --fml.mcVersion, 1.21.1, --fml.neoFormVersion, 20240808.144430]
+[05Jan2025 19:00:35.930] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Oracle Corporation OpenJDK 64-Bit Server VM 21+35-2513
+[05Jan2025 19:00:35.934] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 11.0.4+main.d2e20e43 starting: java version 21 by Oracle Corporation; OS Linux arch amd64 version 5.4.0-198-generic
+[05Jan2025 19:00:36.508] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[05Jan2025 19:00:36.654] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/app/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar%2375!/ Service=ModLauncher Env=SERVER
+[05Jan2025 19:00:36.976] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "server-1.21.1-20240808.144430-srg.jar" [locator: production server provider +net.neoforged:neoforge:21.1.92:server]
+[05Jan2025 19:00:37.067] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "neoforge-21.1.92-universal.jar" [locator: PathBasedLocator[name=neoforge, paths=[libraries/net/neoforged/neoforge/21.1.92/neoforge-21.1.92-universal.jar]], reader: mod manifest]
+[05Jan2025 19:00:37.085] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "appliedenergistics2-19.1.2-beta.jar" [locator: {mods folder locator at /app/mods}, reader: mod manifest]
+[05Jan2025 19:00:37.090] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "architectury-13.0.8-neoforge.jar" [locator: {mods folder locator at /app/mods}, reader: mod manifest]
+[05Jan2025 19:00:37.096] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "balm-neoforge-1.21.1-21.0.22.jar" [locator: {mods folder locator at /app/mods}, reader: mod manifest]
+[05Jan2025 19:00:37.105] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "chunkloaders-1.2.8-neoforge-mc1.21.jar" [locator: {mods folder locator at /app/mods}, reader: mod manifest]
+[05Jan2025 19:00:37.112] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "commoncapabilities-1.21.1-neoforge-2.9.7-192.jar" [locator: {mods folder locator at /app/mods}, reader: mod manifest]
+[05Jan2025 19:00:37.125] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "cyclopscore-1.21.1-neoforge-1.25.5-683.jar" [locator: {mods folder locator at /app/mods}, reader: mod manifest]
+[05Jan2025 19:00:37.136] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "ExtendedAE-1.21-2.1.7-neoforge.jar" [locator: {mods folder locator at /app/mods}, reader: mod manifest]
+[05Jan2025 19:00:37.149] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "ferritecore-7.0.2-neoforge.jar" [locator: {mods folder locator at /app/mods}, reader: mod manifest]
+[05Jan2025 19:00:37.157] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "ftb-library-neoforge-2101.1.7.jar" [locator: {mods folder locator at /app/mods}, reader: mod manifest]
+[05Jan2025 19:00:37.168] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "ftb-ultimine-neoforge-2101.1.1.jar" [locator: {mods folder locator at /app/mods}, reader: mod manifest]
+[05Jan2025 19:00:37.179] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "ftbjeiextras-21.1.4.jar" [locator: {mods folder locator at /app/mods}, reader: mod manifest]
+[05Jan2025 19:00:37.187] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "GlitchCore-neoforge-1.21.1-2.1.0.0.jar" [locator: {mods folder locator at /app/mods}, reader: mod manifest]
+[05Jan2025 19:00:37.191] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Glodium-1.21-2.2-neoforge.jar" [locator: {mods folder locator at /app/mods}, reader: mod manifest]
+[05Jan2025 19:00:37.204] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "gtceu-1.21.1-1.4.4.jar" [locator: {mods folder locator at /app/mods}, reader: mod manifest]
+[05Jan2025 19:00:37.221] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "ImmersiveEngineering-1.21.1-12.0.0-182.jar" [locator: {mods folder locator at /app/mods}, reader: mod manifest]
+[05Jan2025 19:00:37.230] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "integrateddynamics-1.21.1-neoforge-1.24.3-1024.jar" [locator: {mods folder locator at /app/mods}, reader: mod manifest]
+[05Jan2025 19:00:37.256] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "integratedtunnels-1.21.1-neoforge-1.8.30-343.jar" [locator: {mods folder locator at /app/mods}, reader: mod manifest]
+[05Jan2025 19:00:37.262] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "ironchest-1.21-neoforge-16.0.7.jar" [locator: {mods folder locator at /app/mods}, reader: mod manifest]
+[05Jan2025 19:00:37.267] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Jade-1.21.1-NeoForge-15.9.2.jar" [locator: {mods folder locator at /app/mods}, reader: mod manifest]
+[05Jan2025 19:00:37.275] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "jei-1.21.1-neoforge-19.21.0.247.jar" [locator: {mods folder locator at /app/mods}, reader: mod manifest]
+[05Jan2025 19:00:37.280] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "mcw-bridges-3.0.0-mc1.21.1neoforge.jar" [locator: {mods folder locator at /app/mods}, reader: mod manifest]
+[05Jan2025 19:00:37.286] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "modernfix-neoforge-5.20.0+mc1.21.1.jar" [locator: {mods folder locator at /app/mods}, reader: mod manifest]
+[05Jan2025 19:00:37.291] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "supermartijn642configlib-1.1.8-neoforge-mc1.21.jar" [locator: {mods folder locator at /app/mods}, reader: mod manifest]
+[05Jan2025 19:00:37.295] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "supermartijn642corelib-1.1.18-neoforge-mc1.21.jar" [locator: {mods folder locator at /app/mods}, reader: mod manifest]
+[05Jan2025 19:00:37.300] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "waystones-neoforge-1.21.1-21.1.5.jar" [locator: {mods folder locator at /app/mods}, reader: mod manifest]
+[05Jan2025 19:00:37.676] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 9 dependencies adding them to mods collection
+[05Jan2025 19:00:37.677] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "mixinextras-neoforge-0.4.1.jar" [parent: neoforge-21.1.92-universal.jar, locator: jarinjar, reader: mod manifest]
+[05Jan2025 19:00:37.677] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "Registrate-MC1.21-1.3.0+53.jar" [parent: gtceu-1.21.1-1.4.4.jar, locator: jarinjar, reader: mod manifest]
+[05Jan2025 19:00:37.677] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "DualCodecs-0.1.1.jar" [parent: ImmersiveEngineering-1.21.1-12.0.0-182.jar, locator: jarinjar, reader: mod manifest]
+[05Jan2025 19:00:37.678] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "kuma-api-neoforge-21.0.5-SNAPSHOT.jar" [parent: balm-neoforge-1.21.1-21.0.22.jar, locator: jarinjar, reader: mod manifest]
+[05Jan2025 19:00:37.678] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "configuration-444699-5616143.jar" [parent: gtceu-1.21.1-1.4.4.jar, locator: jarinjar, reader: mod manifest]
+[05Jan2025 19:00:37.678] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "BlockModelSplitter-2.0.1.jar" [parent: ImmersiveEngineering-1.21.1-12.0.0-182.jar, locator: jarinjar, reader: mod manifest]
+[05Jan2025 19:00:37.678] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "ldlib-neoforge-1.21.1-1.0.27.b.jar" [parent: gtceu-1.21.1-1.4.4.jar, locator: jarinjar, reader: mod manifest]
+[05Jan2025 19:00:37.678] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "ae2wtlib_api-19.1.0-alpha.1.jar" [parent: ExtendedAE-1.21-2.1.7-neoforge.jar, locator: jarinjar, reader: mod manifest]
+[05Jan2025 19:00:37.679] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "neoforge-coremods-21.1.92.jar" [parent: neoforge-21.1.92-universal.jar, locator: jarinjar, reader: mod manifest]
+[05Jan2025 19:00:37.682] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
      Mod List:
 		Name Version (Mod Id)
 
 		AE2WTLib API 19.1.0-alpha.1 (ae2wtlib_api)
 		Applied Energistics 2 19.1.2-beta (ae2)
+		Architectury 13.0.8 (architectury)
 		Balm 21.0.22 (balm)
-		Biomes O' Plenty 21.1.0.7 (biomesoplenty)
 		Chunk Loaders 1.2.8 (chunkloaders)
 		CommonCapabilities 2.9.7 (commoncapabilities)
 		Configuration 3.0.0 (configuration)
@@ -55,6 +55,8 @@
 		ExtendedAE 1.21-2.1.7-neoforge (extendedae)
 		Ferrite Core 7.0.2 (ferritecore)
 		FTB Jei Extras 21.1.4 (ftbjeiextras)
+		FTB Library 2101.1.7 (ftblibrary)
+		FTB Ultimine 2101.1.1 (ftbultimine)
 		GlitchCore 2.1.0.0 (glitchcore)
 		Glodium 1.21-2.2-neoforge (glodium)
 		GregTech 1.4.4 (gtceu)
@@ -62,6 +64,7 @@
 		IntegratedDynamics 1.24.3 (integrateddynamics)
 		IntegratedTunnels 1.8.30 (integratedtunnels)
 		Iron Chests 1.21-neoforge-16.0.7 (ironchest)
+		Jade 15.9.2+neoforge (jade)
 		Just Enough Items 19.21.0.247 (jei)
 		KumaAPI 21.0.5-SNAPSHOT (kuma_api)
 		LowDragLib 1.0.27.b (ldlib)
@@ -71,188 +74,136 @@
 		NeoForge 21.1.92 (neoforge)
 		SuperMartijn642's Config Library 1.1.8 (supermartijn642configlib)
 		SuperMartijn642's Core Lib 1.1.18 (supermartijn642corelib)
-		TerraBlender 4.1.0.5 (terrablender)
-		The Twilight Forest 4.6.2941 (twilightforest)
 		Waystones 21.1.5 (waystones)
-[04Jan2025 03:26:04.813] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[04Jan2025 03:26:04.817] [main/INFO] [mixin/]: Compatibility level set to JAVA_21
-[04Jan2025 03:26:04.948] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
-[04Jan2025 03:26:05.095] [main/WARN] [mixin/]: Reference map 'kuma_api.refmap.json' for kuma_api.mixins.json could not be read. If this is a development environment you can ignore this message
-[04Jan2025 03:26:05.096] [main/WARN] [mixin/]: Reference map 'terrablender.refmap.json' for terrablender.mixins.json could not be read. If this is a development environment you can ignore this message
-[04Jan2025 03:26:05.097] [main/WARN] [mixin/]: Reference map 'terrablender.refmap.json' for terrablender_neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
-[04Jan2025 03:26:05.098] [main/WARN] [mixin/]: Reference map 'configuration.refmap.json' for configuration.mixins.json could not be read. If this is a development environment you can ignore this message
-[04Jan2025 03:26:05.188] [main/WARN] [mixin/]: Reference map 'supermartijn642corelib.mixins.refmap.json' for supermartijn642corelib.mixins.json could not be read. If this is a development environment you can ignore this message
-[04Jan2025 03:26:05.189] [main/WARN] [mixin/]: Reference map 'waystones.refmap.json' for waystones.mixins.json could not be read. If this is a development environment you can ignore this message
-[04Jan2025 03:26:05.342] [main/INFO] [ModernFix/]: Loaded configuration file for ModernFix 5.20.0+mc1.21.1: 68 options available, 0 override(s) found
-[04Jan2025 03:26:05.343] [main/INFO] [ModernFix/]: Applying Nashorn fix
-[04Jan2025 03:26:05.344] [main/WARN] [mixin/]: Reference map 'glitchcore.refmap.json' for glitchcore.mixins.json could not be read. If this is a development environment you can ignore this message
-[04Jan2025 03:26:05.373] [main/WARN] [mixin/]: Reference map 'glitchcore.refmap.json' for glitchcore.neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
-[04Jan2025 03:26:05.374] [main/WARN] [mixin/]: Reference map 'biomesoplenty.refmap.json' for biomesoplenty.mixins.json could not be read. If this is a development environment you can ignore this message
-[04Jan2025 03:26:05.375] [main/WARN] [mixin/]: Reference map 'biomesoplenty.refmap.json' for biomesoplenty.neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
-[04Jan2025 03:26:05.438] [main/WARN] [mixin/]: Reference map '${refmap_target}refmap.json' for ferritecore.predicates.mixin.json could not be read. If this is a development environment you can ignore this message
-[04Jan2025 03:26:05.439] [main/WARN] [mixin/]: Reference map '${refmap_target}refmap.json' for ferritecore.fastmap.mixin.json could not be read. If this is a development environment you can ignore this message
-[04Jan2025 03:26:05.440] [main/WARN] [mixin/]: Reference map '${refmap_target}refmap.json' for ferritecore.mrl.mixin.json could not be read. If this is a development environment you can ignore this message
-[04Jan2025 03:26:05.441] [main/WARN] [mixin/]: Reference map '${refmap_target}refmap.json' for ferritecore.dedupmultipart.mixin.json could not be read. If this is a development environment you can ignore this message
-[04Jan2025 03:26:05.445] [main/WARN] [mixin/]: Reference map '${refmap_target}refmap.json' for ferritecore.blockstatecache.mixin.json could not be read. If this is a development environment you can ignore this message
-[04Jan2025 03:26:05.447] [main/WARN] [mixin/]: Reference map '${refmap_target}refmap.json' for ferritecore.dedupbakedquad.mixin.json could not be read. If this is a development environment you can ignore this message
-[04Jan2025 03:26:05.448] [main/WARN] [mixin/]: Reference map '${refmap_target}refmap.json' for ferritecore.threaddetec.mixin.json could not be read. If this is a development environment you can ignore this message
-[04Jan2025 03:26:05.453] [main/WARN] [mixin/]: Reference map '${refmap_target}refmap.json' for ferritecore.modelsides.mixin.json could not be read. If this is a development environment you can ignore this message
-[04Jan2025 03:26:05.454] [main/WARN] [mixin/]: Reference map '${refmap_target}refmap.json' for ferritecore.accessors.mixin.json could not be read. If this is a development environment you can ignore this message
-[04Jan2025 03:26:05.461] [main/WARN] [mixin/]: Reference map 'balm.refmap.json' for balm.mixins.json could not be read. If this is a development environment you can ignore this message
-[04Jan2025 03:26:07.698] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[04Jan2025 03:26:08.237] [main/INFO] [net.minecraft.server.Bootstrap/]: ModernFix reached bootstrap stage (8.671 s after launch)
-[04Jan2025 03:26:16.431] [main/INFO] [net.minecraft.server.Bootstrap/]: Vanilla bootstrap took 8191 milliseconds
-[04Jan2025 03:26:20.736] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.1.92, for MC 1.21.1
-[04Jan2025 03:26:21.066] [modloading-worker-0/INFO] [LowDragLib/]: LowDragLib is initializing on platform: NeoForge
-[04Jan2025 03:26:21.396] [modloading-worker-0/INFO] [twilightforest.beans.TFBeanContext/]: Starting Bean Context
-[04Jan2025 03:26:21.449] [modloading-worker-0/INFO] [GregTechCEu/]: GregTechCEu is initializing on platform: NeoForge
-[04Jan2025 03:26:21.640] [modloading-worker-0/INFO] [twilightforest.beans.TFBeanContext/]: Bean Context loaded in 244 ms
-[04Jan2025 03:26:22.002] [modloading-worker-0/INFO] [Configuration/FileWatching]: Registered gtceu config for auto-sync function
-[04Jan2025 03:26:22.009] [modloading-worker-0/INFO] [GregTechCEu/]: High-Tier is Disabled.
-[04Jan2025 03:26:22.278] [modloading-sync-worker/INFO] [GregTechCEu/]: GTCEu common proxy init!
-[04Jan2025 03:26:22.339] [modloading-sync-worker/INFO] [GregTechCEu/]: Registering material registries
-[04Jan2025 03:26:22.342] [modloading-sync-worker/INFO] [GregTechCEu/]: Registering GTCEu Materials
-[04Jan2025 03:26:22.590] [modloading-sync-worker/INFO] [GregTechCEu/]: Registering addon Materials
-[04Jan2025 03:26:22.692] [modloading-sync-worker/WARN] [GregTechCEu/]: FluidStorageKey{gtceu:liquid} already has an associated fluid for material gtceu:water
-[04Jan2025 03:26:22.761] [modloading-sync-worker/WARN] [GregTechCEu/]: FluidStorageKey{gtceu:liquid} already has an associated fluid for material gtceu:lava
-[04Jan2025 03:26:24.071] [modloading-sync-worker/INFO] [GregTechCEu/]: Registering KeyBinds
-[04Jan2025 03:26:24.074] [modloading-sync-worker/INFO] [GregTechCEu/]: Registering data fixers
-[04Jan2025 03:26:24.113] [modloading-sync-worker/WARN] [net.neoforged.fml.DeferredWorkQueue/LOADING]: Mod 'gtceu' took 1.834 s to run a deferred task.
-[04Jan2025 03:26:24.273] [GTCEuM Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 2 Datafixer optimizations took 165 milliseconds
-[04Jan2025 03:26:26.989] [Immersive Engineering Contributors Thread/INFO] [immersiveengineering/]: Attempting to download special revolvers from GitHub
-[04Jan2025 03:26:27.111] [modloading-worker-0/INFO] [integrateddynamics/]: Registered packet handler.
-[04Jan2025 03:26:27.260] [modloading-worker-0/INFO] [integrateddynamicscompat/]: Registered packet handler.
-[04Jan2025 03:26:27.333] [modloading-sync-worker/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
-[04Jan2025 03:26:27.333] [modloading-sync-worker/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
-[04Jan2025 03:26:27.333] [modloading-sync-worker/INFO] [terrablender/]: Registered region biomesoplenty:overworld_primary to index 1 for type OVERWORLD
-[04Jan2025 03:26:27.333] [modloading-sync-worker/INFO] [terrablender/]: Registered region biomesoplenty:overworld_secondary to index 2 for type OVERWORLD
-[04Jan2025 03:26:27.333] [modloading-sync-worker/INFO] [terrablender/]: Registered region biomesoplenty:overworld_rare to index 3 for type OVERWORLD
-[04Jan2025 03:26:27.334] [modloading-sync-worker/INFO] [terrablender/]: Registered region biomesoplenty:nether_common to index 1 for type NETHER
-[04Jan2025 03:26:27.342] [modloading-sync-worker/INFO] [terrablender/]: Registered region biomesoplenty:nether_rare to index 2 for type NETHER
-[04Jan2025 03:26:27.366] [modloading-sync-worker/INFO] [terrablender/]: Registered region integrateddynamics:overworld to index 4 for type OVERWORLD
-[04Jan2025 03:26:27.465] [Forge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [mcwbridges] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/bridges.json
-[04Jan2025 03:26:27.968] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[04Jan2025 03:26:28.234] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/app/libraries/net/minecraft/server/1.21.1-20240808.144430/server-1.21.1-20240808.144430-srg.jar%23143!/assets/.mcassetsroot' uses unexpected schema
-[04Jan2025 03:26:28.234] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/app/libraries/net/minecraft/server/1.21.1-20240808.144430/server-1.21.1-20240808.144430-srg.jar%23143!/data/.mcassetsroot' uses unexpected schema
-[04Jan2025 03:26:28.246] [main/INFO] [GregTechCEu/]: Registering dungeon loot...
-[04Jan2025 03:26:37.362] [main/INFO] [GregTechCEu/]: GregTech Data loading took 7482ms
-[04Jan2025 03:26:38.794] [Worker-Main-1/INFO] [AE2:C/]: Scanning class appeng.server.testplots.InterfaceTestPlots for plots
-[04Jan2025 03:26:38.799] [Worker-Main-1/INFO] [AE2:C/]: Scanning class appeng.server.testplots.AnnihilationPlaneTests for plots
-[04Jan2025 03:26:38.799] [Worker-Main-1/INFO] [AE2:C/]: Scanning class appeng.server.testplots.SpawnExtraGridTestTools for plots
-[04Jan2025 03:26:38.799] [Worker-Main-1/INFO] [AE2:C/]: Scanning class appeng.server.testplots.ExternalEnergyTestPlots for plots
-[04Jan2025 03:26:38.800] [Worker-Main-1/INFO] [AE2:C/]: Scanning class appeng.server.testplots.GuidebookPlot for plots
-[04Jan2025 03:26:38.800] [Worker-Main-1/INFO] [AE2:C/]: Scanning class appeng.server.testplots.ItemP2PTestPlots for plots
-[04Jan2025 03:26:38.800] [Worker-Main-1/INFO] [AE2:C/]: Scanning class appeng.server.testplots.CrystalResonanceGeneratorTestPlots for plots
-[04Jan2025 03:26:38.800] [Worker-Main-1/INFO] [AE2:C/]: Scanning class appeng.server.testplots.PatternProviderPlots for plots
-[04Jan2025 03:26:38.800] [Worker-Main-1/INFO] [AE2:C/]: Scanning class appeng.server.testplots.P2PTestPlots for plots
-[04Jan2025 03:26:38.800] [Worker-Main-1/INFO] [AE2:C/]: Scanning class appeng.server.testplots.AutoCraftingTestPlots for plots
-[04Jan2025 03:26:38.800] [Worker-Main-1/INFO] [AE2:C/]: Scanning class appeng.server.testplots.MemoryCardTestPlots for plots
-[04Jan2025 03:26:38.801] [Worker-Main-1/INFO] [AE2:C/]: Scanning class appeng.server.testplots.InvalidPatternTestPlot for plots
-[04Jan2025 03:26:38.809] [Worker-Main-1/INFO] [AE2:C/]: Scanning class appeng.server.testplots.SpatialTestPlots for plots
-[04Jan2025 03:26:38.809] [Worker-Main-1/INFO] [AE2:C/]: Scanning class appeng.server.testplots.PatternProviderLockModePlots for plots
-[04Jan2025 03:26:38.810] [Worker-Main-1/INFO] [AE2:C/]: Scanning class appeng.server.testplots.SubnetPlots for plots
-[04Jan2025 03:26:38.810] [Worker-Main-1/INFO] [AE2:C/]: Scanning class appeng.server.testplots.ChannelTests for plots
-[04Jan2025 03:26:38.810] [Worker-Main-1/INFO] [AE2:C/]: Scanning class appeng.server.testplots.InscriberTestPlots for plots
-[04Jan2025 03:26:38.819] [Worker-Main-1/INFO] [AE2:C/]: Scanning class appeng.server.testplots.TestPlots for plots
-[04Jan2025 03:26:38.820] [Worker-Main-1/INFO] [AE2:C/]: Scanning class appeng.server.testplots.QnbTestPlots for plots
-[04Jan2025 03:26:42.494] [Forge Version Check/WARN] [net.neoforged.fml.VersionChecker/]: Failed to process update information
-java.net.http.HttpTimeoutException: request timed out
-	at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:949) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:133) ~[java.net.http:?]
-	at MC-BOOTSTRAP/fml_loader@4.0.34/net.neoforged.fml.VersionChecker$1.openUrlString(VersionChecker.java:129) ~[loader-4.0.34.jar%2360!/:4.0]
-	at MC-BOOTSTRAP/fml_loader@4.0.34/net.neoforged.fml.VersionChecker$1.process(VersionChecker.java:162) ~[loader-4.0.34.jar%2360!/:4.0]
-	at java.base/java.lang.Iterable.forEach(Iterable.java:75) [?:?]
-	at MC-BOOTSTRAP/fml_loader@4.0.34/net.neoforged.fml.VersionChecker$1.run(VersionChecker.java:105) [loader-4.0.34.jar%2360!/:4.0]
-[04Jan2025 03:26:42.496] [Forge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [cyclopscore] Starting version check at https://raw.githubusercontent.com/CyclopsMC/Versions/master/neoforge_update/cyclops-core.json
-[04Jan2025 03:26:48.723] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe integrateddynamics:special/clear_facade: com.google.gson.JsonParseException: Failed to parse either. First: Not a json array: "integrateddynamics:facade"; Second: Not a JSON object: "integrateddynamics:facade"
-[04Jan2025 03:26:49.873] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 34276 recipes
-[04Jan2025 03:26:50.720] [main/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 3592 advancements
-[04Jan2025 03:26:50.811] [main/WARN] [net.minecraft.core.MappedRegistry/]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:block] are present in data pack: c:mineable/crowbar, c:mineable/hammer, c:mineable/knife, c:mineable/saw, c:mineable/shears, c:mineable/sword, gtceu:incorrect_for_neutronium_tool
-[04Jan2025 03:26:51.043] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.21.1
-[04Jan2025 03:26:51.043] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[04Jan2025 03:26:51.043] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[04Jan2025 03:26:51.043] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[04Jan2025 03:26:51.190] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[04Jan2025 03:26:51.304] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[04Jan2025 03:26:51.426] [Server thread/WARN] [net.neoforged.neoforge.server.ServerLifecycleHooks/]: Detected minecraft:ocelot that was registered with CREATURE mob category but was added under MONSTER mob category for biomesoplenty:rainforest biome! Mobs should be added to biomes under the same mob category that the mob was registered as to prevent mob cap spawning issues.
-[04Jan2025 03:26:51.427] [Server thread/WARN] [net.neoforged.neoforge.server.ServerLifecycleHooks/]: Detected minecraft:ocelot that was registered with CREATURE mob category but was added under MONSTER mob category for biomesoplenty:rocky_rainforest biome! Mobs should be added to biomes under the same mob category that the mob was registered as to prevent mob cap spawning issues.
-[04Jan2025 03:26:52.692] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:overworld
-[04Jan2025 03:26:52.696] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:the_nether
-[04Jan2025 03:26:52.697] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level ""幸福小屋""
-[04Jan2025 03:26:53.187] [User Authenticator #1/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player moo1s is 8333c853-0529-458b-b71a-bb9395a0a74c
-[04Jan2025 03:26:53.611] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[04Jan2025 03:26:54.185] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Jan2025 03:26:54.186] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Jan2025 03:26:54.549] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 938 ms
-[04Jan2025 03:26:54.549] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (3.175s)! For help, type "help"
-[04Jan2025 03:26:54.692] [Server thread/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
-[04Jan2025 03:26:54.695] [Server thread/INFO] [cyclopscore/]: Loading infobook /data/cyclopscore/info/test.xml
-[04Jan2025 03:26:54.720] [Server thread/INFO] [integrateddynamics/]: Loading infobook /data/integrateddynamics/info/on_the_dynamics_of_integration.xml
-[04Jan2025 03:26:54.984] [Server thread/INFO] [immersiveengineering/]: Finished recipe profiler for Arc Recycling, took 183 milliseconds
-[04Jan2025 03:26:54.984] [Server thread/WARN] [ModernFix/]: Dedicated server took 55.419 seconds to load
-[04Jan2025 03:26:57.498] [Forge Version Check/WARN] [net.neoforged.fml.VersionChecker/]: Failed to process update information
-java.net.http.HttpTimeoutException: request timed out
-	at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:949) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:133) ~[java.net.http:?]
-	at MC-BOOTSTRAP/fml_loader@4.0.34/net.neoforged.fml.VersionChecker$1.openUrlString(VersionChecker.java:129) ~[loader-4.0.34.jar%2360!/:4.0]
-	at MC-BOOTSTRAP/fml_loader@4.0.34/net.neoforged.fml.VersionChecker$1.process(VersionChecker.java:162) ~[loader-4.0.34.jar%2360!/:4.0]
-	at java.base/java.lang.Iterable.forEach(Iterable.java:75) [?:?]
-	at MC-BOOTSTRAP/fml_loader@4.0.34/net.neoforged.fml.VersionChecker$1.run(VersionChecker.java:105) [loader-4.0.34.jar%2360!/:4.0]
-[04Jan2025 03:26:57.499] [Forge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [commoncapabilities] Starting version check at https://raw.githubusercontent.com/CyclopsMC/Versions/master/neoforge_update/common-capabilities.json
-[04Jan2025 03:26:59.133] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: moo1s[/112.96.177.204:28603] logged in with entity id 15 at (15.583613419736485, 67.0, -316.5104286061117)
-[04Jan2025 03:26:59.314] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: moo1s joined the game
-[04Jan2025 03:27:02.009] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4159ms or 83 ticks behind
-[04Jan2025 03:27:03.798] [Netty Epoll Server IO #1/INFO] [immersiveengineering/]: Recipes for potions: minecraft:slow_falling, minecraft:turtle_master, minecraft:long_water_breathing, minecraft:strong_strength, minecraft:invisibility, minecraft:strong_regeneration, minecraft:long_weakness, minecraft:long_slowness, minecraft:wind_charged, minecraft:water, minecraft:long_poison, minecraft:long_regeneration, minecraft:strong_swiftness, minecraft:infested, minecraft:long_fire_resistance, minecraft:strong_turtle_master, minecraft:weaving, minecraft:awkward, minecraft:long_turtle_master, minecraft:healing, minecraft:strong_poison, minecraft:oozing, minecraft:weakness, minecraft:leaping, minecraft:long_slow_falling, minecraft:long_leaping, minecraft:strong_healing, minecraft:water_breathing, minecraft:regeneration, minecraft:strong_slowness, minecraft:strong_harming, minecraft:swiftness, minecraft:night_vision, minecraft:long_night_vision, minecraft:long_invisibility, minecraft:fire_resistance, minecraft:long_swiftness, minecraft:harming, minecraft:strength, minecraft:strong_leaping, minecraft:slowness, minecraft:poison, minecraft:long_strength
-[04Jan2025 03:27:12.513] [Forge Version Check/WARN] [net.neoforged.fml.VersionChecker/]: Failed to process update information
-java.net.http.HttpTimeoutException: request timed out
-	at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:949) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:133) ~[java.net.http:?]
-	at MC-BOOTSTRAP/fml_loader@4.0.34/net.neoforged.fml.VersionChecker$1.openUrlString(VersionChecker.java:129) ~[loader-4.0.34.jar%2360!/:4.0]
-	at MC-BOOTSTRAP/fml_loader@4.0.34/net.neoforged.fml.VersionChecker$1.process(VersionChecker.java:162) ~[loader-4.0.34.jar%2360!/:4.0]
-	at java.base/java.lang.Iterable.forEach(Iterable.java:75) [?:?]
-	at MC-BOOTSTRAP/fml_loader@4.0.34/net.neoforged.fml.VersionChecker$1.run(VersionChecker.java:105) [loader-4.0.34.jar%2360!/:4.0]
-[04Jan2025 03:27:12.514] [Forge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [immersiveengineering] Starting version check at https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.21.1/changelog.json
-[04Jan2025 03:27:27.521] [Forge Version Check/WARN] [net.neoforged.fml.VersionChecker/]: Failed to process update information
-java.net.http.HttpTimeoutException: request timed out
-	at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:949) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:133) ~[java.net.http:?]
-	at MC-BOOTSTRAP/fml_loader@4.0.34/net.neoforged.fml.VersionChecker$1.openUrlString(VersionChecker.java:129) ~[loader-4.0.34.jar%2360!/:4.0]
-	at MC-BOOTSTRAP/fml_loader@4.0.34/net.neoforged.fml.VersionChecker$1.process(VersionChecker.java:162) ~[loader-4.0.34.jar%2360!/:4.0]
-	at java.base/java.lang.Iterable.forEach(Iterable.java:75) [?:?]
-	at MC-BOOTSTRAP/fml_loader@4.0.34/net.neoforged.fml.VersionChecker$1.run(VersionChecker.java:105) [loader-4.0.34.jar%2360!/:4.0]
-[04Jan2025 03:27:27.522] [Forge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [integrateddynamics] Starting version check at https://raw.githubusercontent.com/CyclopsMC/Versions/master/neoforge_update/integrated-dynamics.json
-[04Jan2025 03:27:42.527] [Forge Version Check/WARN] [net.neoforged.fml.VersionChecker/]: Failed to process update information
-java.net.http.HttpTimeoutException: request timed out
-	at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:949) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:133) ~[java.net.http:?]
-	at MC-BOOTSTRAP/fml_loader@4.0.34/net.neoforged.fml.VersionChecker$1.openUrlString(VersionChecker.java:129) ~[loader-4.0.34.jar%2360!/:4.0]
-	at MC-BOOTSTRAP/fml_loader@4.0.34/net.neoforged.fml.VersionChecker$1.process(VersionChecker.java:162) ~[loader-4.0.34.jar%2360!/:4.0]
-	at java.base/java.lang.Iterable.forEach(Iterable.java:75) [?:?]
-	at MC-BOOTSTRAP/fml_loader@4.0.34/net.neoforged.fml.VersionChecker$1.run(VersionChecker.java:105) [loader-4.0.34.jar%2360!/:4.0]
-[04Jan2025 03:27:42.529] [Forge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [integratedtunnels] Starting version check at https://raw.githubusercontent.com/CyclopsMC/Versions/master/neoforge_update/integrated-tunnels.json
-[04Jan2025 03:27:57.545] [Forge Version Check/WARN] [net.neoforged.fml.VersionChecker/]: Failed to process update information
-java.net.http.HttpTimeoutException: request timed out
-	at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:949) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:133) ~[java.net.http:?]
-	at MC-BOOTSTRAP/fml_loader@4.0.34/net.neoforged.fml.VersionChecker$1.openUrlString(VersionChecker.java:129) ~[loader-4.0.34.jar%2360!/:4.0]
-	at MC-BOOTSTRAP/fml_loader@4.0.34/net.neoforged.fml.VersionChecker$1.process(VersionChecker.java:162) ~[loader-4.0.34.jar%2360!/:4.0]
-	at java.base/java.lang.Iterable.forEach(Iterable.java:75) [?:?]
-	at MC-BOOTSTRAP/fml_loader@4.0.34/net.neoforged.fml.VersionChecker$1.run(VersionChecker.java:105) [loader-4.0.34.jar%2360!/:4.0]
-[04Jan2025 03:27:57.546] [Forge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [twilightforest] Starting version check at https://gh.tamaized.com/TeamTwilight/twilightforest/update.json?m=1.21.1&l=NeoForge&v=21.1.83
-[04Jan2025 03:28:13.690] [Forge Version Check/WARN] [net.neoforged.fml.VersionChecker/]: Failed to process update information
-java.net.http.HttpTimeoutException: request timed out
-	at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:949) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:133) ~[java.net.http:?]
-	at MC-BOOTSTRAP/fml_loader@4.0.34/net.neoforged.fml.VersionChecker$1.openUrlString(VersionChecker.java:129) ~[loader-4.0.34.jar%2360!/:4.0]
-	at MC-BOOTSTRAP/fml_loader@4.0.34/net.neoforged.fml.VersionChecker$1.process(VersionChecker.java:162) ~[loader-4.0.34.jar%2360!/:4.0]
-	at java.base/java.lang.Iterable.forEach(Iterable.java:75) [?:?]
-	at MC-BOOTSTRAP/fml_loader@4.0.34/net.neoforged.fml.VersionChecker$1.run(VersionChecker.java:105) [loader-4.0.34.jar%2360!/:4.0]
-[04Jan2025 03:28:32.906] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: moo1s moved too quickly! -0.8675292866054001,1.0,-10.06717613340146
-[04Jan2025 03:28:32.908] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5407ms or 108 ticks behind
-[04Jan2025 03:28:58.217] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2416ms or 48 ticks behind
-[04Jan2025 03:30:19.161] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3110ms or 62 ticks behind
-[04Jan2025 03:30:58.731] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: moo1s moved too quickly! 9.74067056637032,2.0,1.2409229363732948
-[04Jan2025 03:30:58.732] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4982ms or 99 ticks behind
-[04Jan2025 03:32:01.528] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: moo1s has made the advancement [Sweet Dreams]
-[04Jan2025 03:33:31.474] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: moo1s lost connection: Disconnected
-[04Jan2025 03:33:31.476] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: moo1s left the game
+[05Jan2025 19:00:39.089] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[05Jan2025 19:00:39.096] [main/INFO] [mixin/]: Compatibility level set to JAVA_21
+[05Jan2025 19:00:39.248] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[05Jan2025 19:00:39.380] [main/WARN] [mixin/]: Reference map 'kuma_api.refmap.json' for kuma_api.mixins.json could not be read. If this is a development environment you can ignore this message
+[05Jan2025 19:00:39.380] [main/WARN] [mixin/]: Reference map 'configuration.refmap.json' for configuration.mixins.json could not be read. If this is a development environment you can ignore this message
+[05Jan2025 19:00:39.499] [main/WARN] [mixin/]: Reference map 'supermartijn642corelib.mixins.refmap.json' for supermartijn642corelib.mixins.json could not be read. If this is a development environment you can ignore this message
+[05Jan2025 19:00:39.499] [main/WARN] [mixin/]: Reference map 'waystones.refmap.json' for waystones.mixins.json could not be read. If this is a development environment you can ignore this message
+[05Jan2025 19:00:39.723] [main/INFO] [ModernFix/]: Loaded configuration file for ModernFix 5.20.0+mc1.21.1: 68 options available, 0 override(s) found
+[05Jan2025 19:00:39.724] [main/INFO] [ModernFix/]: Applying Nashorn fix
+[05Jan2025 19:00:39.727] [main/WARN] [mixin/]: Reference map 'glitchcore.refmap.json' for glitchcore.mixins.json could not be read. If this is a development environment you can ignore this message
+[05Jan2025 19:00:39.727] [main/WARN] [mixin/]: Reference map 'glitchcore.refmap.json' for glitchcore.neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
+[05Jan2025 19:00:39.833] [main/WARN] [mixin/]: Reference map '${refmap_target}refmap.json' for ferritecore.predicates.mixin.json could not be read. If this is a development environment you can ignore this message
+[05Jan2025 19:00:39.836] [main/WARN] [mixin/]: Reference map '${refmap_target}refmap.json' for ferritecore.fastmap.mixin.json could not be read. If this is a development environment you can ignore this message
+[05Jan2025 19:00:39.846] [main/WARN] [mixin/]: Reference map '${refmap_target}refmap.json' for ferritecore.mrl.mixin.json could not be read. If this is a development environment you can ignore this message
+[05Jan2025 19:00:39.848] [main/WARN] [mixin/]: Reference map '${refmap_target}refmap.json' for ferritecore.dedupmultipart.mixin.json could not be read. If this is a development environment you can ignore this message
+[05Jan2025 19:00:39.850] [main/WARN] [mixin/]: Reference map '${refmap_target}refmap.json' for ferritecore.blockstatecache.mixin.json could not be read. If this is a development environment you can ignore this message
+[05Jan2025 19:00:39.852] [main/WARN] [mixin/]: Reference map '${refmap_target}refmap.json' for ferritecore.dedupbakedquad.mixin.json could not be read. If this is a development environment you can ignore this message
+[05Jan2025 19:00:39.857] [main/WARN] [mixin/]: Reference map '${refmap_target}refmap.json' for ferritecore.threaddetec.mixin.json could not be read. If this is a development environment you can ignore this message
+[05Jan2025 19:00:39.859] [main/WARN] [mixin/]: Reference map '${refmap_target}refmap.json' for ferritecore.modelsides.mixin.json could not be read. If this is a development environment you can ignore this message
+[05Jan2025 19:00:39.860] [main/WARN] [mixin/]: Reference map '${refmap_target}refmap.json' for ferritecore.accessors.mixin.json could not be read. If this is a development environment you can ignore this message
+[05Jan2025 19:00:39.869] [main/WARN] [mixin/]: Reference map 'balm.refmap.json' for balm.mixins.json could not be read. If this is a development environment you can ignore this message
+[05Jan2025 19:00:42.172] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[05Jan2025 19:00:43.382] [main/INFO] [net.minecraft.server.Bootstrap/]: ModernFix reached bootstrap stage (12.85 s after launch)
+[05Jan2025 19:00:53.758] [main/INFO] [net.minecraft.server.Bootstrap/]: Vanilla bootstrap took 10373 milliseconds
+[05Jan2025 19:01:01.882] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.1.92, for MC 1.21.1
+[05Jan2025 19:01:02.309] [modloading-worker-0/INFO] [LowDragLib/]: LowDragLib is initializing on platform: NeoForge
+[05Jan2025 19:01:02.662] [modloading-worker-0/INFO] [GregTechCEu/]: GregTechCEu is initializing on platform: NeoForge
+[05Jan2025 19:01:02.843] [modloading-worker-0/INFO] [Configuration/FileWatching]: Registered gtceu config for auto-sync function
+[05Jan2025 19:01:02.852] [modloading-worker-0/INFO] [GregTechCEu/]: High-Tier is Disabled.
+[05Jan2025 19:01:02.890] [modloading-sync-worker/INFO] [GregTechCEu/]: GTCEu common proxy init!
+[05Jan2025 19:01:02.954] [modloading-sync-worker/INFO] [GregTechCEu/]: Registering material registries
+[05Jan2025 19:01:02.957] [modloading-sync-worker/INFO] [GregTechCEu/]: Registering GTCEu Materials
+[05Jan2025 19:01:03.267] [modloading-sync-worker/INFO] [GregTechCEu/]: Registering addon Materials
+[05Jan2025 19:01:03.405] [modloading-sync-worker/WARN] [GregTechCEu/]: FluidStorageKey{gtceu:liquid} already has an associated fluid for material gtceu:water
+[05Jan2025 19:01:03.473] [modloading-sync-worker/WARN] [GregTechCEu/]: FluidStorageKey{gtceu:liquid} already has an associated fluid for material gtceu:lava
+[05Jan2025 19:01:04.768] [modloading-sync-worker/INFO] [GregTechCEu/]: Registering KeyBinds
+[05Jan2025 19:01:04.770] [modloading-sync-worker/INFO] [GregTechCEu/]: Registering data fixers
+[05Jan2025 19:01:04.814] [modloading-sync-worker/WARN] [net.neoforged.fml.DeferredWorkQueue/LOADING]: Mod 'gtceu' took 1.923 s to run a deferred task.
+[05Jan2025 19:01:04.969] [GTCEuM Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 2 Datafixer optimizations took 159 milliseconds
+[05Jan2025 19:01:07.209] [Immersive Engineering Contributors Thread/INFO] [immersiveengineering/]: Attempting to download special revolvers from GitHub
+[05Jan2025 19:01:07.270] [modloading-worker-0/INFO] [integrateddynamics/]: Registered packet handler.
+[05Jan2025 19:01:07.337] [modloading-worker-0/INFO] [integrateddynamicscompat/]: Registered packet handler.
+[05Jan2025 19:01:07.833] [modloading-worker-0/INFO] [snownee.jade.Jade/]: Start loading plugin from snownee.jade.addon.vanilla.VanillaPlugin
+[05Jan2025 19:01:07.880] [modloading-worker-0/INFO] [snownee.jade.Jade/]: Start loading plugin from snownee.jade.addon.universal.UniversalPlugin
+[05Jan2025 19:01:07.891] [modloading-worker-0/INFO] [snownee.jade.Jade/]: Start loading plugin from snownee.jade.addon.debug.DebugPlugin
+[05Jan2025 19:01:07.892] [modloading-worker-0/INFO] [snownee.jade.Jade/]: Start loading plugin from snownee.jade.addon.core.CorePlugin
+[05Jan2025 19:01:07.893] [modloading-worker-0/INFO] [snownee.jade.Jade/]: Start loading plugin from snownee.jade.addon.access.AccessibilityPlugin
+[05Jan2025 19:01:07.894] [modloading-worker-0/INFO] [snownee.jade.Jade/]: Start loading plugin from appeng.integration.modules.jade.JadeModule
+[05Jan2025 19:01:07.972] [modloading-worker-0/INFO] [snownee.jade.Jade/]: Start loading plugin from net.blay09.mods.waystones.compat.JadeIntegration
+[05Jan2025 19:01:07.973] [modloading-worker-0/INFO] [snownee.jade.Jade/]: Start loading plugin from org.cyclops.integrateddynamicscompat.modcompat.jade.JadeIntegratedDynamicsConfig
+[05Jan2025 19:01:07.977] [modloading-worker-0/INFO] [snownee.jade.Jade/]: Start loading plugin from com.gregtechceu.gtceu.integration.jade.GTJadePlugin
+[05Jan2025 19:01:07.984] [modloading-worker-0/ERROR] [snownee.jade.Jade/]: Error loading plugin at com.gregtechceu.gtceu.integration.jade.GTJadePlugin
+java.lang.NoSuchMethodError: 'snownee.jade.addon.harvest.SimpleToolHandler snownee.jade.addon.harvest.SimpleToolHandler.create(net.minecraft.resources.ResourceLocation, boolean, java.util.List)'
+	at TRANSFORMER/gtceu@1.4.4/com.gregtechceu.gtceu.integration.jade.GTJadePlugin.lambda$static$0(GTJadePlugin.java:90) ~[gtceu-1.21.1-1.4.4.jar%23159!/:?]
+	at java.base/java.util.Map.forEach(Map.java:733) ~[?:?]
+	at TRANSFORMER/gtceu@1.4.4/com.gregtechceu.gtceu.integration.jade.GTJadePlugin.<clinit>(GTJadePlugin.java:79) ~[gtceu-1.21.1-1.4.4.jar%23159!/:?]
+	at java.base/java.lang.Class.forName0(Native Method) ~[?:?]
+	at java.base/java.lang.Class.forName(Class.java:421) ~[?:?]
+	at java.base/java.lang.Class.forName(Class.java:412) ~[?:?]
+	at TRANSFORMER/jade@15.9.2+neoforge/snownee.jade.util.CommonProxy.loadComplete(CommonProxy.java:498) ~[Jade-1.21.1-NeoForge-15.9.2.jar%23164!/:15.9.2+neoforge]
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.ConsumerEventHandler.invoke(ConsumerEventHandler.java:26) ~[bus-8.0.2.jar%2367!/:?]
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.EventBus.post(EventBus.java:350) ~[bus-8.0.2.jar%2367!/:?]
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.EventBus.post(EventBus.java:315) ~[bus-8.0.2.jar%2367!/:?]
+	at MC-BOOTSTRAP/fml_loader@4.0.34/net.neoforged.fml.ModContainer.acceptEvent(ModContainer.java:158) ~[loader-4.0.34.jar%2360!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.34/net.neoforged.fml.ModLoader.lambda$dispatchParallelEvent$4(ModLoader.java:172) ~[loader-4.0.34.jar%2360!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.34/net.neoforged.fml.ModLoader.lambda$dispatchParallelTask$7(ModLoader.java:231) ~[loader-4.0.34.jar%2360!/:4.0]
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934) [?:?]
+	at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:911) [?:?]
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483) [?:?]
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) [?:?]
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) [?:?]
+[05Jan2025 19:01:07.988] [modloading-worker-0/INFO] [snownee.jade.Jade/]: Start loading plugin from com.glodblock.github.extendedae.xmod.jade.JadePlugin
+[05Jan2025 19:01:08.247] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[05Jan2025 19:01:08.447] [Forge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [mcwbridges] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/bridges.json
+[05Jan2025 19:01:08.656] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/app/libraries/net/minecraft/server/1.21.1-20240808.144430/server-1.21.1-20240808.144430-srg.jar%23144!/assets/.mcassetsroot' uses unexpected schema
+[05Jan2025 19:01:08.657] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/app/libraries/net/minecraft/server/1.21.1-20240808.144430/server-1.21.1-20240808.144430-srg.jar%23144!/data/.mcassetsroot' uses unexpected schema
+[05Jan2025 19:01:08.672] [main/INFO] [GregTechCEu/]: Registering dungeon loot...
+[05Jan2025 19:01:09.811] [Forge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [mcwbridges] Found status: BETA Current: 3.0.0 Target: null
+[05Jan2025 19:01:09.811] [Forge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [cyclopscore] Starting version check at https://raw.githubusercontent.com/CyclopsMC/Versions/master/neoforge_update/cyclops-core.json
+[05Jan2025 19:01:10.224] [Forge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [cyclopscore] Found status: UP_TO_DATE Current: 1.25.5 Target: null
+[05Jan2025 19:01:10.237] [Forge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [commoncapabilities] Starting version check at https://raw.githubusercontent.com/CyclopsMC/Versions/master/neoforge_update/common-capabilities.json
+[05Jan2025 19:01:10.719] [Forge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [commoncapabilities] Found status: UP_TO_DATE Current: 2.9.7 Target: null
+[05Jan2025 19:01:10.720] [Forge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [immersiveengineering] Starting version check at https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.21.1/changelog.json
+[05Jan2025 19:01:11.196] [Forge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [immersiveengineering] Found status: BETA Current: 12.0.0-182 Target: null
+[05Jan2025 19:01:11.197] [Forge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [integrateddynamics] Starting version check at https://raw.githubusercontent.com/CyclopsMC/Versions/master/neoforge_update/integrated-dynamics.json
+[05Jan2025 19:01:11.644] [Forge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [integrateddynamics] Found status: UP_TO_DATE Current: 1.24.3 Target: null
+[05Jan2025 19:01:11.644] [Forge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [integratedtunnels] Starting version check at https://raw.githubusercontent.com/CyclopsMC/Versions/master/neoforge_update/integrated-tunnels.json
+[05Jan2025 19:01:12.028] [Forge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [integratedtunnels] Found status: UP_TO_DATE Current: 1.8.30 Target: null
+[05Jan2025 19:01:19.234] [main/INFO] [GregTechCEu/]: GregTech Data loading took 8636ms
+[05Jan2025 19:01:21.288] [Worker-Main-1/INFO] [AE2:C/]: Scanning class appeng.server.testplots.InterfaceTestPlots for plots
+[05Jan2025 19:01:21.293] [Worker-Main-1/INFO] [AE2:C/]: Scanning class appeng.server.testplots.AnnihilationPlaneTests for plots
+[05Jan2025 19:01:21.294] [Worker-Main-1/INFO] [AE2:C/]: Scanning class appeng.server.testplots.SpawnExtraGridTestTools for plots
+[05Jan2025 19:01:21.294] [Worker-Main-1/INFO] [AE2:C/]: Scanning class appeng.server.testplots.ExternalEnergyTestPlots for plots
+[05Jan2025 19:01:21.294] [Worker-Main-1/INFO] [AE2:C/]: Scanning class appeng.server.testplots.GuidebookPlot for plots
+[05Jan2025 19:01:21.294] [Worker-Main-1/INFO] [AE2:C/]: Scanning class appeng.server.testplots.ItemP2PTestPlots for plots
+[05Jan2025 19:01:21.295] [Worker-Main-1/INFO] [AE2:C/]: Scanning class appeng.server.testplots.CrystalResonanceGeneratorTestPlots for plots
+[05Jan2025 19:01:21.295] [Worker-Main-1/INFO] [AE2:C/]: Scanning class appeng.server.testplots.PatternProviderPlots for plots
+[05Jan2025 19:01:21.295] [Worker-Main-1/INFO] [AE2:C/]: Scanning class appeng.server.testplots.P2PTestPlots for plots
+[05Jan2025 19:01:21.295] [Worker-Main-1/INFO] [AE2:C/]: Scanning class appeng.server.testplots.AutoCraftingTestPlots for plots
+[05Jan2025 19:01:21.295] [Worker-Main-1/INFO] [AE2:C/]: Scanning class appeng.server.testplots.MemoryCardTestPlots for plots
+[05Jan2025 19:01:21.296] [Worker-Main-1/INFO] [AE2:C/]: Scanning class appeng.server.testplots.InvalidPatternTestPlot for plots
+[05Jan2025 19:01:21.296] [Worker-Main-1/INFO] [AE2:C/]: Scanning class appeng.server.testplots.SpatialTestPlots for plots
+[05Jan2025 19:01:21.296] [Worker-Main-1/INFO] [AE2:C/]: Scanning class appeng.server.testplots.PatternProviderLockModePlots for plots
+[05Jan2025 19:01:21.297] [Worker-Main-1/INFO] [AE2:C/]: Scanning class appeng.server.testplots.SubnetPlots for plots
+[05Jan2025 19:01:21.298] [Worker-Main-1/INFO] [AE2:C/]: Scanning class appeng.server.testplots.ChannelTests for plots
+[05Jan2025 19:01:21.298] [Worker-Main-1/INFO] [AE2:C/]: Scanning class appeng.server.testplots.InscriberTestPlots for plots
+[05Jan2025 19:01:21.308] [Worker-Main-1/INFO] [AE2:C/]: Scanning class appeng.server.testplots.TestPlots for plots
+[05Jan2025 19:01:21.310] [Worker-Main-1/INFO] [AE2:C/]: Scanning class appeng.server.testplots.QnbTestPlots for plots
+[05Jan2025 19:01:30.948] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe integrateddynamics:special/clear_facade: com.google.gson.JsonParseException: Failed to parse either. First: Not a json array: "integrateddynamics:facade"; Second: Not a JSON object: "integrateddynamics:facade"
+[05Jan2025 19:01:32.822] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 33545 recipes
+[05Jan2025 19:01:33.518] [main/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 2828 advancements
+[05Jan2025 19:01:33.637] [main/WARN] [net.minecraft.core.MappedRegistry/]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:block] are present in data pack: c:mineable/crowbar, c:mineable/hammer, c:mineable/knife, c:mineable/saw, c:mineable/shears, c:mineable/sword, gtceu:incorrect_for_neutronium_tool
+[05Jan2025 19:01:33.894] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.21.1
+[05Jan2025 19:01:33.894] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[05Jan2025 19:01:33.894] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[05Jan2025 19:01:33.894] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[05Jan2025 19:01:34.053] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[05Jan2025 19:01:34.161] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[05Jan2025 19:01:34.371] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level ""幸福小屋""
+[05Jan2025 19:01:34.982] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[05Jan2025 19:01:35.712] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[05Jan2025 19:01:35.713] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[05Jan2025 19:01:35.997] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 1014 ms
+[05Jan2025 19:01:35.998] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (1.744s)! For help, type "help"
+[05Jan2025 19:01:36.179] [Server thread/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
+[05Jan2025 19:01:36.192] [Server thread/INFO] [cyclopscore/]: Loading infobook /data/cyclopscore/info/test.xml
+[05Jan2025 19:01:36.224] [Server thread/INFO] [integrateddynamics/]: Loading infobook /data/integrateddynamics/info/on_the_dynamics_of_integration.xml
+[05Jan2025 19:01:36.530] [Server thread/INFO] [immersiveengineering/]: Finished recipe profiler for Arc Recycling, took 234 milliseconds
+[05Jan2025 19:01:36.532] [Server thread/WARN] [ModernFix/]: Dedicated server took 65.996 seconds to load
