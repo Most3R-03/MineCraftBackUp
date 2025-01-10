@@ -16,5 +16,11 @@
     "name": "单步异常",
     "level": 4,
     "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "22f098d5-d897-3b9c-aed3-24926af26e43",
+    "name": "ccMax",
+    "level": 4,
+    "bypassesPlayerLimit": false
   }
 ]
