@@ -1,79 +1,92 @@
-[22Jan2025 12:26:32.021] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.22, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
-[22Jan2025 12:26:32.025] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21 by Oracle Corporation; OS Linux arch amd64 version 5.4.0-198-generic
-[22Jan2025 12:26:32.917] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[22Jan2025 12:26:32.970] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/app/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[22Jan2025 12:26:33.407] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /app/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.22/fmlcore-1.20.1-47.3.22.jar is missing mods.toml file
-[22Jan2025 12:26:33.409] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /app/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.22/javafmllanguage-1.20.1-47.3.22.jar is missing mods.toml file
-[22Jan2025 12:26:33.412] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /app/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.22/lowcodelanguage-1.20.1-47.3.22.jar is missing mods.toml file
-[22Jan2025 12:26:33.413] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /app/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.22/mclanguage-1.20.1-47.3.22.jar is missing mods.toml file
-[22Jan2025 12:26:33.763] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 6 dependencies adding them to mods collection
-[22Jan2025 12:26:36.366] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[22Jan2025 12:26:36.531] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
-[22Jan2025 12:26:36.802] [main/INFO] [ModernFix/]: Loaded configuration file for ModernFix 5.20.0+mc1.20.1: 86 options available, 0 override(s) found
-[22Jan2025 12:26:36.808] [main/INFO] [ModernFix/]: Applying Nashorn fix
-[22Jan2025 12:26:36.867] [main/INFO] [ModernFix/]: Applied Forge config corruption patch
-[22Jan2025 12:26:38.961] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
-[22Jan2025 12:26:40.064] [main/INFO] [net.minecraft.server.Bootstrap/]: ModernFix reached bootstrap stage (11.31 s after launch)
-[22Jan2025 12:26:40.300] [main/WARN] [mixin/]: @Final field delegatesByName:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
-[22Jan2025 12:26:40.301] [main/WARN] [mixin/]: @Final field delegatesByValue:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
-[22Jan2025 12:26:41.889] [main/INFO] [net.minecraft.server.Bootstrap/]: Vanilla bootstrap took 1814 milliseconds
-[22Jan2025 12:26:48.995] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
-[22Jan2025 12:26:48.996] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbultimine:key_pressed
-[22Jan2025 12:26:48.997] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbultimine:mode_changed
-[22Jan2025 12:26:49.003] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbultimine:sync_config_to_server
-[22Jan2025 12:26:49.317] [modloading-worker-0/INFO] [LowDragLib/]: LowDragLib is initializing on platform: Forge
-[22Jan2025 12:26:49.318] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftblibrary:edit_nbt_response
-[22Jan2025 12:26:49.321] [modloading-worker-0/INFO] [GregTechCEu/]: GregTechCEu is initializing...
-[22Jan2025 12:26:49.564] [modloading-worker-0/INFO] [Configuration/FileWatching]: Registered gtceu config for auto-sync function
-[22Jan2025 12:26:49.578] [modloading-worker-0/INFO] [GregTechCEu/]: High-Tier is Disabled.
-[22Jan2025 12:26:49.731] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.22, for MC 1.20.1 with MCP 20230612.114412
-[22Jan2025 12:26:49.731] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.22 Initialized
-[22Jan2025 12:26:49.973] [main/INFO] [GregTechCEu/]: GTCEu common proxy init!
-[22Jan2025 12:26:50.046] [main/INFO] [GregTechCEu/]: Registering material registries
-[22Jan2025 12:26:50.048] [main/INFO] [GregTechCEu/]: Registering GTCEu Materials
-[22Jan2025 12:26:50.701] [main/INFO] [GregTechCEu/]: Registering addon Materials
-[22Jan2025 12:26:50.901] [main/WARN] [GregTechCEu/]: FluidStorageKey{gtceu:liquid} already has an associated fluid for material gtceu:water
-[22Jan2025 12:26:51.061] [main/WARN] [GregTechCEu/]: FluidStorageKey{gtceu:liquid} already has an associated fluid for material gtceu:lava
-[22Jan2025 12:26:51.062] [main/WARN] [GregTechCEu/]: FluidStorageKey{gtceu:liquid} already has an associated fluid for material gtceu:milk
-[22Jan2025 12:26:53.079] [main/INFO] [GregTechCEu/]: Registering KeyBinds
-[22Jan2025 12:26:53.080] [main/WARN] [net.minecraftforge.fml.DeferredWorkQueue/LOADING]: Mod 'gtceu' took 3.106 s to run a deferred task.
-[22Jan2025 12:26:57.403] [Immersive Engineering Contributors Thread/INFO] [immersiveengineering/]: Attempting to download special revolvers from GitHub
-[22Jan2025 12:26:57.662] [modloading-worker-0/INFO] [integrateddynamicscompat/]: Registered packet handler.
-[22Jan2025 12:26:57.693] [modloading-worker-0/INFO] [integrateddynamics/]: Registered packet handler.
-[22Jan2025 12:26:57.998] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwbridges] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/bridges.json
-[22Jan2025 12:26:58.091] [Thread-0/INFO] [ModernFix/]: Please use /mfsrc to reload any changed mod config files
-[22Jan2025 12:26:58.402] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at blusunrize.immersiveengineering.common.util.compat.jade.IEWailaPlugin
-[22Jan2025 12:26:58.413] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
-[22Jan2025 12:26:58.434] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
-[22Jan2025 12:26:58.439] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
-[22Jan2025 12:26:58.441] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.blay09.mods.waystones.compat.JadeIntegration
-[22Jan2025 12:26:58.442] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at org.cyclops.integrateddynamicscompat.modcompat.jade.JadeIntegratedDynamicsConfig
-[22Jan2025 12:26:58.445] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at appeng.integration.modules.jade.JadeModule
-[22Jan2025 12:26:58.465] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at com.gregtechceu.gtceu.integration.jade.GTJadePlugin
-[22Jan2025 12:26:58.545] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at com.glodblock.github.extendedae.xmod.jade.JadePlugin
-[22Jan2025 12:26:59.290] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[22Jan2025 12:26:59.450] [main/INFO] [ModernFix/]: Bypassed Mojang DFU
-[22Jan2025 12:27:00.055] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/app/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23153!/assets/.mcassetsroot' uses unexpected schema
-[22Jan2025 12:27:00.055] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/app/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23153!/data/.mcassetsroot' uses unexpected schema
-[22Jan2025 12:27:03.197] [main/INFO] [GregTechCEu/]: Registering dungeon loot...
-[22Jan2025 12:27:03.204] [main/INFO] [GregTechCEu/]: GregTech Data loading took 3143ms
-[22Jan2025 12:27:05.665] [main/INFO] [AE2:C/]: Scanning class appeng.server.testplots.TestPlots for plots
-[22Jan2025 12:27:05.669] [main/INFO] [AE2:C/]: Scanning class appeng.server.testplots.AutoCraftingTestPlots for plots
-[22Jan2025 12:27:05.669] [main/INFO] [AE2:C/]: Scanning class appeng.server.testplots.InscriberTestPlots for plots
-[22Jan2025 12:27:05.678] [main/INFO] [AE2:C/]: Scanning class appeng.server.testplots.P2PTestPlots for plots
-[22Jan2025 12:27:05.679] [main/INFO] [AE2:C/]: Scanning class appeng.server.testplots.ItemP2PTestPlots for plots
-[22Jan2025 12:27:05.679] [main/INFO] [AE2:C/]: Scanning class appeng.server.testplots.MemoryCardTestPlots for plots
-[22Jan2025 12:27:05.680] [main/INFO] [AE2:C/]: Scanning class appeng.server.testplots.PatternProviderLockModePlots for plots
-[22Jan2025 12:27:05.681] [main/INFO] [AE2:C/]: Scanning class appeng.server.testplots.PatternProviderPlots for plots
-[22Jan2025 12:27:05.681] [main/INFO] [AE2:C/]: Scanning class appeng.server.testplots.SpatialTestPlots for plots
-[22Jan2025 12:27:05.681] [main/INFO] [AE2:C/]: Scanning class appeng.server.testplots.QnbTestPlots for plots
-[22Jan2025 12:27:05.681] [main/INFO] [AE2:C/]: Scanning class appeng.server.testplots.GuidebookPlot for plots
-[22Jan2025 12:27:05.682] [main/INFO] [AE2:C/]: Scanning class appeng.server.testplots.SubnetPlots for plots
-[22Jan2025 12:27:05.682] [main/INFO] [AE2:C/]: Scanning class appeng.server.testplots.ChannelTests for plots
-[22Jan2025 12:27:05.682] [main/INFO] [AE2:C/]: Scanning class appeng.server.testplots.AnnihilationPlaneTests for plots
-[22Jan2025 12:27:08.005] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwbridges] Found status: UP_TO_DATE Current: 3.0.0 Target: null
-[22Jan2025 12:27:08.005] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cyclopscore] Starting version check at https://raw.githubusercontent.com/CyclopsMC/Versions/master/forge_update/cyclops-core.json
-[22Jan2025 12:27:08.287] [Worker-Main-1/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:expatternprovider:blocks/ex_emc_interface
+[22Jan2025 19:00:26.678] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.22, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
+[22Jan2025 19:00:26.684] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21 by Oracle Corporation; OS Linux arch amd64 version 5.4.0-198-generic
+[22Jan2025 19:00:27.805] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[22Jan2025 19:00:27.920] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/app/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[22Jan2025 19:00:28.371] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /app/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.22/fmlcore-1.20.1-47.3.22.jar is missing mods.toml file
+[22Jan2025 19:00:28.373] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /app/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.22/javafmllanguage-1.20.1-47.3.22.jar is missing mods.toml file
+[22Jan2025 19:00:28.376] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /app/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.22/lowcodelanguage-1.20.1-47.3.22.jar is missing mods.toml file
+[22Jan2025 19:00:28.377] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /app/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.22/mclanguage-1.20.1-47.3.22.jar is missing mods.toml file
+[22Jan2025 19:00:28.778] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 6 dependencies adding them to mods collection
+[22Jan2025 19:00:31.489] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[22Jan2025 19:00:31.582] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[22Jan2025 19:00:32.088] [main/INFO] [ModernFix/]: Loaded configuration file for ModernFix 5.20.0+mc1.20.1: 86 options available, 0 override(s) found
+[22Jan2025 19:00:32.089] [main/INFO] [ModernFix/]: Applying Nashorn fix
+[22Jan2025 19:00:32.148] [main/INFO] [ModernFix/]: Applied Forge config corruption patch
+[22Jan2025 19:00:34.292] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
+[22Jan2025 19:00:35.961] [main/INFO] [net.minecraft.server.Bootstrap/]: ModernFix reached bootstrap stage (12.90 s after launch)
+[22Jan2025 19:00:36.336] [main/WARN] [mixin/]: @Final field delegatesByName:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[22Jan2025 19:00:36.337] [main/WARN] [mixin/]: @Final field delegatesByValue:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[22Jan2025 19:00:38.311] [main/INFO] [net.minecraft.server.Bootstrap/]: Vanilla bootstrap took 2338 milliseconds
+[22Jan2025 19:00:44.751] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[22Jan2025 19:00:44.752] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbultimine:key_pressed
+[22Jan2025 19:00:44.752] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbultimine:mode_changed
+[22Jan2025 19:00:44.757] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbultimine:sync_config_to_server
+[22Jan2025 19:00:45.049] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftblibrary:edit_nbt_response
+[22Jan2025 19:00:45.053] [modloading-worker-0/INFO] [GregTechCEu/]: GregTechCEu is initializing...
+[22Jan2025 19:00:45.066] [modloading-worker-0/INFO] [LowDragLib/]: LowDragLib is initializing on platform: Forge
+[22Jan2025 19:00:45.239] [modloading-worker-0/INFO] [Configuration/FileWatching]: Registered gtceu config for auto-sync function
+[22Jan2025 19:00:45.243] [modloading-worker-0/INFO] [GregTechCEu/]: High-Tier is Disabled.
+[22Jan2025 19:00:45.460] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.22, for MC 1.20.1 with MCP 20230612.114412
+[22Jan2025 19:00:45.460] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.22 Initialized
+[22Jan2025 19:00:45.640] [main/INFO] [GregTechCEu/]: GTCEu common proxy init!
+[22Jan2025 19:00:45.712] [main/INFO] [GregTechCEu/]: Registering material registries
+[22Jan2025 19:00:45.713] [main/INFO] [GregTechCEu/]: Registering GTCEu Materials
+[22Jan2025 19:00:45.980] [main/INFO] [GregTechCEu/]: Registering addon Materials
+[22Jan2025 19:00:46.125] [main/WARN] [GregTechCEu/]: FluidStorageKey{gtceu:liquid} already has an associated fluid for material gtceu:water
+[22Jan2025 19:00:46.234] [main/WARN] [GregTechCEu/]: FluidStorageKey{gtceu:liquid} already has an associated fluid for material gtceu:lava
+[22Jan2025 19:00:46.235] [main/WARN] [GregTechCEu/]: FluidStorageKey{gtceu:liquid} already has an associated fluid for material gtceu:milk
+[22Jan2025 19:00:47.991] [main/INFO] [GregTechCEu/]: Registering KeyBinds
+[22Jan2025 19:00:47.992] [main/WARN] [net.minecraftforge.fml.DeferredWorkQueue/LOADING]: Mod 'gtceu' took 2.352 s to run a deferred task.
+[22Jan2025 19:00:51.819] [Immersive Engineering Contributors Thread/INFO] [immersiveengineering/]: Attempting to download special revolvers from GitHub
+[22Jan2025 19:00:51.911] [Thread-0/INFO] [ModernFix/]: Please use /mfsrc to reload any changed mod config files
+[22Jan2025 19:00:51.941] [modloading-worker-0/INFO] [integrateddynamicscompat/]: Registered packet handler.
+[22Jan2025 19:00:52.092] [modloading-worker-0/INFO] [integrateddynamics/]: Registered packet handler.
+[22Jan2025 19:00:52.405] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwbridges] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/bridges.json
+[22Jan2025 19:00:52.667] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at blusunrize.immersiveengineering.common.util.compat.jade.IEWailaPlugin
+[22Jan2025 19:00:52.727] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
+[22Jan2025 19:00:52.738] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
+[22Jan2025 19:00:52.747] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
+[22Jan2025 19:00:52.749] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.blay09.mods.waystones.compat.JadeIntegration
+[22Jan2025 19:00:52.749] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at org.cyclops.integrateddynamicscompat.modcompat.jade.JadeIntegratedDynamicsConfig
+[22Jan2025 19:00:52.762] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at appeng.integration.modules.jade.JadeModule
+[22Jan2025 19:00:52.788] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at com.gregtechceu.gtceu.integration.jade.GTJadePlugin
+[22Jan2025 19:00:52.859] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at com.glodblock.github.extendedae.xmod.jade.JadePlugin
+[22Jan2025 19:00:53.561] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[22Jan2025 19:00:53.739] [main/INFO] [ModernFix/]: Bypassed Mojang DFU
+[22Jan2025 19:00:54.291] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/app/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23153!/assets/.mcassetsroot' uses unexpected schema
+[22Jan2025 19:00:54.291] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/app/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23153!/data/.mcassetsroot' uses unexpected schema
+[22Jan2025 19:00:56.470] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwbridges] Found status: UP_TO_DATE Current: 3.0.0 Target: null
+[22Jan2025 19:00:56.471] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cyclopscore] Starting version check at https://raw.githubusercontent.com/CyclopsMC/Versions/master/forge_update/cyclops-core.json
+[22Jan2025 19:00:56.644] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cyclopscore] Found status: UP_TO_DATE Current: 1.19.5 Target: null
+[22Jan2025 19:00:56.651] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [commoncapabilities] Starting version check at https://raw.githubusercontent.com/CyclopsMC/Versions/master/forge_update/common-capabilities.json
+[22Jan2025 19:00:56.742] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [commoncapabilities] Found status: UP_TO_DATE Current: 2.9.4 Target: null
+[22Jan2025 19:00:56.743] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [configuration] Starting version check at https://raw.githubusercontent.com/Toma1O6/UpdateSchemas/master/configuration-forge.json
+[22Jan2025 19:00:57.478] [main/INFO] [GregTechCEu/]: Registering dungeon loot...
+[22Jan2025 19:00:57.486] [main/INFO] [GregTechCEu/]: GregTech Data loading took 3190ms
+[22Jan2025 19:00:57.949] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [configuration] Found status: OUTDATED Current: 2.2.0 Target: 2.2.1
+[22Jan2025 19:00:57.949] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [immersiveengineering] Starting version check at https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.20.1/changelog.json
+[22Jan2025 19:00:58.092] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [immersiveengineering] Found status: UP_TO_DATE Current: 1.20.1-10.1.0-171 Target: null
+[22Jan2025 19:00:58.092] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [integrateddynamics] Starting version check at https://raw.githubusercontent.com/CyclopsMC/Versions/master/forge_update/integrated-dynamics.json
+[22Jan2025 19:00:58.460] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [integrateddynamics] Found status: UP_TO_DATE Current: 1.25.0 Target: null
+[22Jan2025 19:00:58.461] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [integratedtunnels] Starting version check at https://raw.githubusercontent.com/CyclopsMC/Versions/master/forge_update/integrated-tunnels.json
+[22Jan2025 19:00:58.773] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [integratedtunnels] Found status: UP_TO_DATE Current: 1.8.33 Target: null
+[22Jan2025 19:00:58.773] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[22Jan2025 19:00:59.465] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: AHEAD Current: 47.3.22 Target: null
+[22Jan2025 19:01:00.010] [main/INFO] [AE2:C/]: Scanning class appeng.server.testplots.TestPlots for plots
+[22Jan2025 19:01:00.014] [main/INFO] [AE2:C/]: Scanning class appeng.server.testplots.AutoCraftingTestPlots for plots
+[22Jan2025 19:01:00.015] [main/INFO] [AE2:C/]: Scanning class appeng.server.testplots.InscriberTestPlots for plots
+[22Jan2025 19:01:00.023] [main/INFO] [AE2:C/]: Scanning class appeng.server.testplots.P2PTestPlots for plots
+[22Jan2025 19:01:00.024] [main/INFO] [AE2:C/]: Scanning class appeng.server.testplots.ItemP2PTestPlots for plots
+[22Jan2025 19:01:00.024] [main/INFO] [AE2:C/]: Scanning class appeng.server.testplots.MemoryCardTestPlots for plots
+[22Jan2025 19:01:00.025] [main/INFO] [AE2:C/]: Scanning class appeng.server.testplots.PatternProviderLockModePlots for plots
+[22Jan2025 19:01:00.025] [main/INFO] [AE2:C/]: Scanning class appeng.server.testplots.PatternProviderPlots for plots
+[22Jan2025 19:01:00.026] [main/INFO] [AE2:C/]: Scanning class appeng.server.testplots.SpatialTestPlots for plots
+[22Jan2025 19:01:00.026] [main/INFO] [AE2:C/]: Scanning class appeng.server.testplots.QnbTestPlots for plots
+[22Jan2025 19:01:00.026] [main/INFO] [AE2:C/]: Scanning class appeng.server.testplots.GuidebookPlot for plots
+[22Jan2025 19:01:00.028] [main/INFO] [AE2:C/]: Scanning class appeng.server.testplots.SubnetPlots for plots
+[22Jan2025 19:01:00.029] [main/INFO] [AE2:C/]: Scanning class appeng.server.testplots.ChannelTests for plots
+[22Jan2025 19:01:00.029] [main/INFO] [AE2:C/]: Scanning class appeng.server.testplots.AnnihilationPlaneTests for plots
+[22Jan2025 19:01:02.577] [Worker-Main-1/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:expatternprovider:blocks/ex_emc_interface
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'expatternprovider:ex_emc_interface'
 	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23153!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -125,80 +138,48 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
-[22Jan2025 12:27:11.175] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe expatternprovider:ex_emc_interface_upgrade as it's serializer returned null
-[22Jan2025 12:27:11.306] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cyclopscore] Found status: UP_TO_DATE Current: 1.19.5 Target: null
-[22Jan2025 12:27:11.319] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [commoncapabilities] Starting version check at https://raw.githubusercontent.com/CyclopsMC/Versions/master/forge_update/common-capabilities.json
-[22Jan2025 12:27:11.900] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe expatternprovider:ex_emc_interface_part as it's serializer returned null
-[22Jan2025 12:27:11.918] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe expatternprovider:u_terminal/upgrade: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'ae2wtlib:upgrade'
-[22Jan2025 12:27:12.021] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe expatternprovider:ex_emc_import_bus as it's serializer returned null
-[22Jan2025 12:27:12.146] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe expatternprovider:ex_emc_interface as it's serializer returned null
-[22Jan2025 12:27:12.237] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe expatternprovider:u_terminal/xe: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'ae2wtlib:combine'
-[22Jan2025 12:27:12.238] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe expatternprovider:u_terminal/xa: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'ae2wtlib:combine'
-[22Jan2025 12:27:12.238] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe expatternprovider:u_terminal/xc: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'ae2wtlib:combine'
-[22Jan2025 12:27:12.564] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe expatternprovider:ex_emc_interface_alt as it's serializer returned null
-[22Jan2025 12:27:12.735] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe expatternprovider:cutter/accumulation as it's serializer returned null
-[22Jan2025 12:27:12.761] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe expatternprovider:ex_emc_import_bus_upgrade as it's serializer returned null
-[22Jan2025 12:27:12.951] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe expatternprovider:ex_emc_export_bus as it's serializer returned null
-[22Jan2025 12:27:13.139] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 95 recipes
-[22Jan2025 12:27:13.984] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2654 advancements
-[22Jan2025 12:27:14.627] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[22Jan2025 12:27:14.628] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[22Jan2025 12:27:14.628] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[22Jan2025 12:27:14.628] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[22Jan2025 12:27:14.809] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[22Jan2025 12:27:14.852] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[22Jan2025 12:27:14.973] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[22Jan2025 12:27:14.973] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[22Jan2025 12:27:14.973] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[22Jan2025 12:27:14.973] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[22Jan2025 12:27:15.076] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "幸福小屋"
-[22Jan2025 12:27:15.618] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[22Jan2025 12:27:18.047] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[22Jan2025 12:27:18.048] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[22Jan2025 12:27:18.048] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[22Jan2025 12:27:18.049] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[22Jan2025 12:27:18.049] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[22Jan2025 12:27:18.144] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[22Jan2025 12:27:18.621] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 80%
-[22Jan2025 12:27:19.126] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 3507 ms
-[22Jan2025 12:27:19.126] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (4.131s)! For help, type "help"
-[22Jan2025 12:27:19.207] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[22Jan2025 12:27:19.232] [Server thread/INFO] [cyclopscore/]: Loading infobook /data/cyclopscore/info/test.xml
-[22Jan2025 12:27:19.265] [Server thread/INFO] [integrateddynamics/]: Loading infobook /data/integrateddynamics/info/on_the_dynamics_of_integration.xml
-[22Jan2025 12:27:20.064] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 diamond_horse_armor, missing knowledge for {1 diamond_leggings=2.0, 1 diamond_chestplate=1.0, 1 diamond_helmet=1.0}
-[22Jan2025 12:27:20.065] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 avanced_nanomuscle_chestplate, missing knowledge for {1 nanomuscle_chestplate=1.0}
-[22Jan2025 12:27:20.065] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 paper, missing knowledge for {1 water_bucket=0.5}
-[22Jan2025 12:27:20.065] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 radiator, missing knowledge for {1 water_bucket=0.25}
-[22Jan2025 12:27:20.065] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 leather_horse_armor, missing knowledge for {1 leather_helmet=1.0, 1 leather_leggings=2.0, 1 leather_chestplate=1.0}
-[22Jan2025 12:27:20.075] [Server thread/INFO] [immersiveengineering/]: Finished recipe profiler for Arc Recycling, took 676 milliseconds
-[22Jan2025 12:27:20.076] [Server thread/WARN] [ModernFix/]: Dedicated server took 51.322 seconds to load
-[22Jan2025 12:27:26.323] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
-java.net.http.HttpTimeoutException: request timed out
-	at jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:949) ~[java.net.http:?]
-	at jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:133) ~[java.net.http:?]
-	at net.minecraftforge.fml.VersionChecker$1.openUrlString(VersionChecker.java:142) ~[fmlcore-1.20.1-47.3.22.jar%23154!/:?]
-	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:180) ~[fmlcore-1.20.1-47.3.22.jar%23154!/:?]
-	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
-	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:117) ~[fmlcore-1.20.1-47.3.22.jar%23154!/:?]
-[22Jan2025 12:27:26.324] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [configuration] Starting version check at https://raw.githubusercontent.com/Toma1O6/UpdateSchemas/master/configuration-forge.json
-[22Jan2025 12:27:47.339] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [configuration] Found status: OUTDATED Current: 2.2.0 Target: 2.2.1
-[22Jan2025 12:27:47.339] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [immersiveengineering] Starting version check at https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.20.1/changelog.json
-[22Jan2025 12:27:47.532] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [immersiveengineering] Found status: UP_TO_DATE Current: 1.20.1-10.1.0-171 Target: null
-[22Jan2025 12:27:47.532] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [integrateddynamics] Starting version check at https://raw.githubusercontent.com/CyclopsMC/Versions/master/forge_update/integrated-dynamics.json
-[22Jan2025 12:27:51.353] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [integrateddynamics] Found status: UP_TO_DATE Current: 1.25.0 Target: null
-[22Jan2025 12:27:51.354] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [integratedtunnels] Starting version check at https://raw.githubusercontent.com/CyclopsMC/Versions/master/forge_update/integrated-tunnels.json
-[22Jan2025 12:27:55.979] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [integratedtunnels] Found status: UP_TO_DATE Current: 1.8.33 Target: null
-[22Jan2025 12:27:55.980] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[22Jan2025 12:27:56.677] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: AHEAD Current: 47.3.22 Target: null
-[22Jan2025 12:28:36.258] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: moo1s[/112.96.226.85:45711] logged in with entity id 115 at (604.6559589892809, 75.875, 572.7673391373228)
-[22Jan2025 12:28:36.584] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: moo1s joined the game
-[22Jan2025 12:28:37.093] [Netty Epoll Server IO #1/INFO] [immersiveengineering/]: Recipes for potions: minecraft:strong_strength, minecraft:slow_falling, minecraft:invisibility, minecraft:strong_slowness, minecraft:strong_regeneration, minecraft:long_night_vision, minecraft:strong_turtle_master, minecraft:strong_swiftness, minecraft:long_turtle_master, minecraft:weakness, minecraft:strength, minecraft:long_poison, minecraft:night_vision, minecraft:long_leaping, minecraft:healing, minecraft:strong_poison, minecraft:strong_harming, minecraft:long_weakness, minecraft:long_fire_resistance, minecraft:strong_healing, minecraft:awkward, minecraft:long_slow_falling, minecraft:water, minecraft:slowness, minecraft:long_regeneration, minecraft:long_water_breathing, minecraft:regeneration, minecraft:fire_resistance, minecraft:leaping, minecraft:strong_leaping, minecraft:long_swiftness, minecraft:water_breathing, minecraft:poison, minecraft:long_invisibility, minecraft:swiftness, minecraft:harming, minecraft:long_strength, minecraft:long_slowness, minecraft:turtle_master
-[22Jan2025 12:28:37.377] [Server thread/INFO] [Jade/]: Syncing config to moo1s (9fcd1053-3add-3307-ace0-a76f30b0afdc)
-[22Jan2025 12:29:34.898] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: moo1s lost connection: Disconnected
-[22Jan2025 12:29:34.899] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: moo1s left the game
-[22Jan2025 12:29:43.763] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@610f3d51[id=<null>,name=moo1s,properties={},legacy=false] (/112.96.226.85:45715) lost connection: Disconnected
-[22Jan2025 12:29:58.113] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: moo1s[/112.96.226.85:45717] logged in with entity id 197 at (604.6559589892809, 75.875, 572.7673391373228)
-[22Jan2025 12:29:58.213] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: moo1s joined the game
-[22Jan2025 12:29:58.367] [Server thread/INFO] [Jade/]: Syncing config to moo1s (9fcd1053-3add-3307-ace0-a76f30b0afdc)
-[22Jan2025 12:30:52.284] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: moo1s lost connection: Timed out
-[22Jan2025 12:30:52.285] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: moo1s left the game
+[22Jan2025 19:01:05.715] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe expatternprovider:ex_emc_interface_upgrade as it's serializer returned null
+[22Jan2025 19:01:06.456] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe expatternprovider:ex_emc_interface_part as it's serializer returned null
+[22Jan2025 19:01:06.481] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe expatternprovider:u_terminal/upgrade: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'ae2wtlib:upgrade'
+[22Jan2025 19:01:06.613] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe expatternprovider:ex_emc_import_bus as it's serializer returned null
+[22Jan2025 19:01:06.795] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe expatternprovider:ex_emc_interface as it's serializer returned null
+[22Jan2025 19:01:06.911] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe expatternprovider:u_terminal/xe: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'ae2wtlib:combine'
+[22Jan2025 19:01:06.912] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe expatternprovider:u_terminal/xa: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'ae2wtlib:combine'
+[22Jan2025 19:01:06.912] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe expatternprovider:u_terminal/xc: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'ae2wtlib:combine'
+[22Jan2025 19:01:07.221] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe expatternprovider:ex_emc_interface_alt as it's serializer returned null
+[22Jan2025 19:01:07.284] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe expatternprovider:cutter/accumulation as it's serializer returned null
+[22Jan2025 19:01:07.292] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe expatternprovider:ex_emc_import_bus_upgrade as it's serializer returned null
+[22Jan2025 19:01:07.526] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe expatternprovider:ex_emc_export_bus as it's serializer returned null
+[22Jan2025 19:01:07.587] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 95 recipes
+[22Jan2025 19:01:08.189] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2654 advancements
+[22Jan2025 19:01:08.614] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[22Jan2025 19:01:08.615] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[22Jan2025 19:01:08.615] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[22Jan2025 19:01:08.615] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[22Jan2025 19:01:08.750] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[22Jan2025 19:01:08.834] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[22Jan2025 19:01:08.977] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[22Jan2025 19:01:08.977] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[22Jan2025 19:01:08.977] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[22Jan2025 19:01:08.977] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[22Jan2025 19:01:09.081] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "幸福小屋"
+[22Jan2025 19:01:09.684] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[22Jan2025 19:01:12.219] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Jan2025 19:01:12.220] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Jan2025 19:01:12.220] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Jan2025 19:01:12.220] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Jan2025 19:01:12.220] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Jan2025 19:01:12.221] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Jan2025 19:01:12.691] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Jan2025 19:01:13.333] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 96%
+[22Jan2025 19:01:13.953] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 4268 ms
+[22Jan2025 19:01:13.954] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (4.960s)! For help, type "help"
+[22Jan2025 19:01:14.006] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[22Jan2025 19:01:14.041] [Server thread/INFO] [cyclopscore/]: Loading infobook /data/cyclopscore/info/test.xml
+[22Jan2025 19:01:14.066] [Server thread/INFO] [integrateddynamics/]: Loading infobook /data/integrateddynamics/info/on_the_dynamics_of_integration.xml
+[22Jan2025 19:01:14.830] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 avanced_nanomuscle_chestplate, missing knowledge for {1 nanomuscle_chestplate=1.0}
+[22Jan2025 19:01:14.830] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 radiator, missing knowledge for {1 water_bucket=0.25}
+[22Jan2025 19:01:14.831] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 leather_horse_armor, missing knowledge for {1 leather_leggings=2.0, 1 leather_helmet=1.0, 1 leather_chestplate=1.0}
+[22Jan2025 19:01:14.831] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 diamond_horse_armor, missing knowledge for {1 diamond_chestplate=1.0, 1 diamond_helmet=1.0, 1 diamond_leggings=2.0}
+[22Jan2025 19:01:14.831] [Server thread/INFO] [immersiveengineering/]: Finished recipe profiler for Arc Recycling, took 655 milliseconds
+[22Jan2025 19:01:14.832] [Server thread/WARN] [ModernFix/]: Dedicated server took 51.775 seconds to load
